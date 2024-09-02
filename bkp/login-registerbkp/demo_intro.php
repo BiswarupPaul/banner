@@ -73,7 +73,7 @@ echo "Welcome ".$_SESSION['pwd'];
                         ?>
                         <th>
                             <?php foreach ($image_paths as $image_path): ?>
-                                <img src="../../../biswarup/login-register/admin/images/<?php echo trim($image_path); ?>" height="100px" width="100px" style="margin-right: 5px;">
+                                <img src="../../../banner/login-register/admin/images/<?php echo trim($image_path); ?>" height="100px" width="100px" style="margin-right: 5px;">
                             <?php endforeach; ?>
                         </th>
                         <td><?php echo $row['fname']; ?></td>
