@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+        }
+        main{
+            height:100vh;
+            width: 100vw;
+            background:linear-gradient(100deg,rgb(175,46,230),rgb(0,102,191));
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        main form{
+            background:linear-gradient(120deg,rgb(155,242,255) rgb(0,102,191)) ;
+            padding:2rem;
+            border-bottom-left-radius: 72px ;
+
+        }
+        main form h2{
+            color: white;
+            text-align: center;
+            font-size: 3rem;
+            text-shadow: 0 0 5px rgb(0,125,174);
+            margin-bottom: 1rem;
+
+        }
+        .imp{
+            width:400px;
+            outline:none;
+            padding: 0.7rem 1rem;
+            background-color: transparent;
+            border:2px solid black;
+            border-radius: 25px;
+            margin:0.7rem 0;
+            font-size: 1rem;
+            color:white;
+        }
+        .imp::placeholder{
+            color:rgb(179,169,169);
+            font-size: 1.2rem;
+        }
+        .asd{
+            display:flex;
+            justify-content: space-between;
+            font-weight: 600;
+            margin:0.7rem 0.8rem;
+
+        }
+        .asd a{
+            color:black;
+        }
+        #log{
+            display:block;
+            background-color: black;
+            color:rgb(0,60,255);
+            width:fit-content;
+            margin:1rem auto;
+            padding:0.3rem 1.5rem;
+            font-size:2rem;
+            font-weight:700;
+            border-radius:72px;
+        }
+        form p{
+            text-align: center;
+            color:white;
+        
+        }
+        form p a{
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <form>
+            <h2> Sign in</h2>
+            <div>
+                <input class="imp" type="text" placeholder="Username">
+
+            </div>
+            <div>
+                <input class="imp"type="password" placeholder="password">
+
+            </div>
+            <div class="asd">
+                <div>
+                    <input type="checkbox" id="chk"><lable for="chk">Remember me</lable>
+
+                </div>
+                <a href="#">Forgot password</a>
+            </div>
+            <div>
+                <input type="submit"value="LOGIN" id="log">
+
+            </div>
+            <p>Dont have an account? <a href="register/register.html"> Register Here</a></p>
+        </form>
+    </main>
+    
+</body>
+</html>

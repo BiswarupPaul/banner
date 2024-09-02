@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a
+{
+    text-decoration: none;
+}
+ul
+{
+    list-style: none;
+}
+:active
+{
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.navbar
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 8%;
+    justify-content: space-between;
+    padding: 50px;
+    background: black; 
+    color: white;
+}
+.navbar .logo
+{
+    margin-top: -15px
+}
+.nav-links
+{
+    display: flex; 
+    align-items: centre;
+    font-weight: 10px;
+    color: white;
+}
+.nav-links li
+{
+    margin-right: 50px;
+    margin-top: -20px;
+    font-weight: 50px;
+}
+header
+{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(Front.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center; 
+    /* margin-top: 30px;  */
+}
+.header-content
+{
+    margin-bottom: 150px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.header-content h2
+{
+    font-size: 4vmin;
+}
+.line
+{
+    width: 100px;
+    height: 4px;
+    background: #a103fc;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1
+{
+    font-size: 4vmin;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ctn
+{
+    padding: 7px 15px;
+    background: #a103fc;
+    border-radius: 30px;
+    color: white;
+}
+.ctn:hover
+{
+    background: skyblue;
+}
+.ctn[type="button"]:hover
+{
+    background: skyblue;
+}
+.menu-btn
+{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+.title
+{
+    text-align: center;
+    font-size: column;
+    color: black;
+    margin-top: 20px;
+}
+.row
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background: white;
+}
+.row .col
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+.row .col .ctn
+{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.row .col .ctn[type="button"]:hover
+{
+    background: skyblue;
+}
+.row .col img
+{
+    width: 80%;
+}
+.events .row
+{
+    margin-top: 5px;
+}
+header .trip_bx
+{
+    position: relative;
+    width: 95%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: -180px;
+    border: 1px solid #000;
+}
+header .trip_bx .search_bx
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    border-radius: 15px;
+    box-shadow: 0px 10px 25px rgb(197, 24, 197);
+    z-index: 1;
+}
+.header-content .trip_bx .search_bx .card
+{
+    width: 200px;
+    height: 100%;
+    /* border: 1px solid black; */
+    /* display: flex; */
+}
+.header-content .trip_bx .search_bx .card h4
+{
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 5px;
+    color: white;
+}
+.header-content .trip_bx .search_bx .card input
+{
+    font-size: 15px;
+    margin-top: 3px;
+    color: black;
+}
+.header-content .trip_bx .search_bx input[type="button"]
+{
+    font-size: 15px;
+    margin: 10px;
+    background: #a103fc;
+    color: white;
+    border-radius: 30px;
+    padding: 5px 15px;
+}
+.header-content .search_bx input[type="button"]:hover
+{
+    background: skyblue;
+}
+.footer
+{
+    width: 100%;
+    min-height: 200%;
+    padding: 20px 80px;
+    margin: 0;
+    background: pink;
+    text-align: center;
+}
+.footer p
+{
+    color: black;
+    margin: auto;
+    padding: 20px auto;
+}
+/*Mobile Device*/
+@media only screen and (max-width:850px)
+{
+    .navbar
+    {
+        padding: 0;
+    }
+    .logo
+    {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .nav-links
+    {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: #a103fc;
+        margin-top: -900px;
+    }
+    .mobile-menu
+    {
+        margin-top: 0px;
+    }
+    .nav-links li
+    {
+        margin: 30px auto;
+    }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tour Booking Page</title>
+        <link rel="stylesheet" href="tour_booking.css" type="text/css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="register">
+                <h2>Booking Destination</h2>
+                <form action="booking.php" id="register" method="POST">
+                    <label>Full Name : </label>
+                    <br>
+                    <input type="text" name="name" id="name" placeholder="Enter your Full Name">
+                    <br><br>
+                    <label>Your Age : </label>
+                    <br>
+                    <input type="number" name="age" id="name" placeholder="How old are you ?">
+                    <br><br>
+                    <div class="form-floating">
+                        <label>Destination : </label><br>
+                        <select name="destination" class="form-select bg-transparent" id="select1">
+                            <option value="1">Botanical Garden</option>
+                            <option value="2">Victoria Memorial</option>
+                            <option value="3">Dakhineshwar</option>
+                        </select>
+                    </div>
+                    <br><br>
+                    <label>Date : </label>
+                    <br>
+                    <input type="date" name="date" id="name" placeholder="Enter the date">
+                    <br><br>
+                    <label>Time : </label>
+                    <br>
+                    <input type="time" name="time" id="name" placeholder="Enter the time">
+                    <br><br>
+                    <label>Email : </label>
+                    <br>
+                    <input type="email" name="email" id="name" placeholder="Enter the valid Email">
+                    <br><br>
+                    <label>Gender : </label>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="gender" value="male" id="male">
+                    &nbsp;
+                    <span id="male">Male</span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="gender" value="female" id="female">
+                    &nbsp;
+                    <span id="female">Female</span>
+                    <br><br>
+                    <input type="submit" value="Submit" name="submit" id="submit">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

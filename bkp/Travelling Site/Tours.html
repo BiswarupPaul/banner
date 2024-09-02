@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Travelling site</title>
+  <style>
+    body{
+        background-image: url(Photo-of-the-day_25092012_1.webp);
+        background-size: cover;
+        backdrop-filter: 2 pixel blur;
+    }
+    .locations {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 80px;
+}
+
+.card {
+    width: 400px;
+    height: 730px;
+    padding: 10px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 4.5rem;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(123, 204, 233, 0.471); 
+    box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s ease;
+    transition: all .3s ease-in-out; /* Adding a smooth transition effect */
+}
+
+.card:hover {
+    background-color: rgba(21, 83, 145, 0.839);
+    box-shadow: 0px 5px 16px rgba(36, 32, 32, 0.25); /* Deep grey color */
+    transform: translate3d(0px, -5px, 0px);
+}
+
+
+.card img {
+    width: 380px; 
+    height: 450px; 
+    margin-bottom: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card h3 {
+    text-align: center;
+    padding-left:0rem;
+    margin-top: 10px;
+    color: #03243f;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.card:hover h3{
+    color:#FCC900;
+}
+
+.card p {
+    margin-top: 5px;
+    color: #010525;
+    padding-bottom: 55px;
+}
+
+.card:hover p {
+    color: aliceblue; /* White color for the <p> tag on hover */
+}
+
+h2{
+    font-size: 44px;
+    font-family: 'Poppins', 'sans-serif';
+    text-align: center;
+    color: #dd5e45;
+    font-weight: bolder;
+    margin-top: 150px;
+}
+  </style>
+</head>
+<body>
+    <div class = "main-body">
+        <section id="locations">
+        <h2 class = "heading" id= "locations">Previous Tours Packages</h2>
+        <div class="locations">
+                <div class="card">
+                    <img src="victoria-memorial-kolkata_78361-2667.jpg">
+                    <h3>Victoria Memorial</h3>
+                    <p>The Victoria Memorial is a large marble building on the Maidan in Central Kolkata, having its entrance on the Queen's Way.
+                        Visit:12/08/2023,Package:-250 per head,
+                        person:25</p>
+                </div>
+                <div class="card">
+                    <img src="Birla_Planetarium,_Kolkata.jpg">
+                    <h3>Birla Planetarium</h3>
+                    <p> The Birla Planetarium in Kolkata, West Bengal, India, is a single-storeyed circular structure designed in the typical Indian style, whose architecture is loosely styled on the Buddhist Stupa at Sanchi.
+                        visited: 22/01/23, person:-30,packages:-350 per head
+                    </p>
+                </div>
+        
+                <div class="card">
+                    <img src="WhatsApp Image 2023-11-22 at 15.50.48_f027126b.jpg" alt="Location 3">
+                    <h3>Alipore Zoo</h3>
+                    <p>The Zoological Garden, Alipore is India's oldest formally stated zoological park and a big tourist attraction in Kolkata, West Bengal. It has been open as a zoo since 1876.
+                        Visited:01/01/22,person:-40,packages :-300 per head
+                    </p>
+                </div>
+
+                <div class="card">
+                    <img src="5d077556b9a2e56fed720d21_1560769878156.webp">
+                    <h3>Birla Mandir</h3>
+                    <p>Birla Mandir in Kolkata, India, is a Hindu temple on Asutosh Chowdhury Avenue, Ballygunge, built by the industrialist Birla family.
+                        Visited:25/12/2022,persons:40,packages:-200 per head
+                    </p>
+                </div>
+        
+                <div class="card">
+                    <img src="2021-09-19.jpg">
+                    <h3>Dakshineswar Temple</h3>
+                    <p>Dakshineswar Kali Temple or Dakshineswar Kalibari is a Hindu navaratna temple in Dakshineswar, Kolkata, West Bengal, India. Situated on the eastern bank of the Hooghly River, the presiding deity of the temple is Bhavatarini, a form of Parashakti Adya Kali, otherwise known as Adishakti Kalika.
+                        Visited:14/02/2022,person:-35,packages:-300 per head
+                    </p>
+                </div>
+        </div>
+</body>
