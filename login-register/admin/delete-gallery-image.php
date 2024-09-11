@@ -31,12 +31,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['delete_image']) && iss
             $update_query->execute(['gallery_image' => $galleryimage_paths, 'id' => $id]);
 
             echo "Image deleted successfully.";
-            //echo header('list-banner.php');
+            //echo header('list-gallery.php');
         } else {
             echo "Image not found in gallery.";
         }
     } else {
-        echo "Banner not found.";
+        echo "gallery not found.";
     }
 } else {
     echo "Invalid request.";
