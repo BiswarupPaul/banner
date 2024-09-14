@@ -19,6 +19,14 @@
         <span>Dashboard</span></a>
 </li>
 
+<!-- Divider -->
+<hr class="sidebar-divider">
+
+<!-- Heading -->
+<div class="sidebar-heading">
+    Posting
+</div>
+
 
 <li class="nav-item">
     <a class="nav-link" href="../new-admin/list-banner.php" data-toggle="collapse" data-target="#collapsebanner"
@@ -31,6 +39,28 @@
             
             <a class="collapse-item" href="list-banner.php">List Banner</a>
             <a class="collapse-item" href="home-banner.php">Home Banner</a>
+        </div>
+    </div>
+</li>
+
+
+<li class="nav-item">
+    <a class="nav-link" href="../new-admin/list-blog.php" data-toggle="collapse" data-target="#collapseblog"
+    aria-expanded="true" aria-controls="collapseblog">
+        <i class="fas fa-fw fa-blog"></i>
+        <span>Blog</span>
+    </a>
+    <div id="collapseblog" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+        <div class="bg-white py-2 collapse-inner rounded">
+            
+            <a class="collapse-item" href="list-banner.php"><i class="fas fa-fw fa-list"></i>
+            <span>All Blog</span></a>
+            <a class="collapse-item" href="list-categories.php"><i class="fas fa-fw fa-list"></i>
+            <span>All Category</span></a>
+            <a class="collapse-item" href="home-banner.php"><i class="fas fa-fw fa-plus"></i>
+            <span>Add Blog</span></a>
+            <a class="collapse-item" href="add-categories.php"><i class="fas fa-fw fa-plus"></i>
+            <span>Add Category</span></a>
         </div>
     </div>
 </li>
