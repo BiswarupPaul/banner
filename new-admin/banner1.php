@@ -245,8 +245,8 @@ if ($id) {
                     <div class="col-md-5">
                         <label>Status</label>
                         <select name="status" class="form-select">
-                            <option value="active" <?= isset($status) && $status == 'active' ? 'selected' : '' ?>>Active</option>
-                            <option value="inactive" <?= isset($status) && $status == 'inactive' ? 'selected' : '' ?>>Inactive</option>
+                            <option value="1" <?= isset($status) && $status == '1' ? 'selected' : '' ?>>Active</option>
+                            <option value="0" <?= isset($status) && $status == '0' ? 'selected' : '' ?>>Inactive</option>
                         </select>
                     </div>
                 </div>

@@ -53,11 +53,11 @@
     <div id="collapseblog" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
             
-            <a class="collapse-item" href="list-banner.php"><i class="fas fa-fw fa-list"></i>
+            <a class="collapse-item" href="list-blogs.php"><i class="fas fa-fw fa-list"></i>
             <span>All Blog</span></a>
             <a class="collapse-item" href="list-categories.php"><i class="fas fa-fw fa-list"></i>
             <span>All Category</span></a>
-            <a class="collapse-item" href="home-banner.php"><i class="fas fa-fw fa-plus"></i>
+            <a class="collapse-item" href="add-blogs.php"><i class="fas fa-fw fa-plus"></i>
             <span>Add Blog</span></a>
             <a class="collapse-item" href="add-categories.php"><i class="fas fa-fw fa-plus"></i>
             <span>Add Category</span></a>

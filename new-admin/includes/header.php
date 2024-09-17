@@ -36,3 +36,12 @@
             <!-- Begin Page Content -->
             <div class="page-content container position-relative">
                 <div class="wrapper">
+                <style>
+                    th {
+                    text-align: center;
+                    }
+                    
+                    td {
+                    text-align: center;
+                    }
+                </style>

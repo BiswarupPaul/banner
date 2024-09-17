@@ -58,6 +58,23 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/additional-methods.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
+<!-- <script src="https://cdn.ckeditor.com/4.17.1/standard/ckeditor.js"></script> -->
+<!-- <script src="https://cdn.ckeditor.com/4.16.1/standard/ckeditor.js"></script> -->
+
+<!-- <script>
+    CKEDITOR.replace('blog_content', {
+    extraPlugins: 'wordcount',
+    wordcount: {
+        showWordCount: true,
+        showCharCount: false,
+        countSpacesAsChars: true,
+        countHTML: false,
+        maxWordCount: 200,
+        maxCharCount: 2000
+    }
+});
+
+</script> -->
 
 </body>
 </html>

@@ -7,7 +7,7 @@ include ('includes/header.php');
 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Categories List</h1>
+                    <h1 class="h3 mb-2 text-gray-800">Blogs</h1>
                     
 
                     <!-- DataTales Example -->
@@ -18,7 +18,7 @@ include ('includes/header.php');
                                     <h6 class="m-0 font-weight-bold text-primary">List</h6>
                                 </div>
                                 <div class=" col-md-2">
-                                    <a href="add-categories.php" class="btn btn-primary">Add Category</a>
+                                    <a href="add-blogs.php" class="btn btn-primary">Add Blogs</a>
                                 </div>
                             </div>
                         </div>
@@ -29,7 +29,9 @@ include ('includes/header.php');
                                     <thead>
                                         <tr>
                                             <th>SN</th>
-                                            <th>Category Name</th>
+                                            <th>Title</th>
+                                            <th>Category</th>
+                                            <th>Status</th>
                                             <th colspan="3">Action</th>
                                         </tr>
                                     </thead>
@@ -47,7 +49,12 @@ include ('includes/header.php');
                                         <?php
                                         include("includes/demo_conn.php");
                                         //$select_query="SELECT * from registration";
-                                        $select_query = $conn->prepare("SELECT * FROM categories ");
+                                        $select_query = $conn->prepare("
+                                            SELECT b.id, b.title, b.status, c.cat_name AS category
+                                            FROM blog b
+                                            JOIN categories c ON b.category = c.cat_id
+                                        ");
+                                        
                                         $select_query->execute();
                                         //$select_query->execute(['email' => $email]);
                                         //$result=mysqli_query($conn,$select_query);
@@ -62,11 +69,13 @@ include ('includes/header.php');
                                                 ?>
                                                 <tr>
                                                 <th><?php echo $sn; ?></th>
-                                                <th><?php echo $row['cat_name']; ?></th>
+                                                <th><?php echo $row['title']; ?></th>
+                                                <th><?php echo $row['category']; ?></th>
+                                                <th><?php echo $row['status']; ?></th>
                                                 <th>
-                                                    <!--<a href="view.php?id=<?php echo $row['cat_id']; ?>" class="btn btn-primary">Read More</a>-->
-                                                    <a href="add-categories.php?id=<?php echo $row['cat_id']; ?>" class="btn btn-primary">Edit</a>
-                                                    <a href="add-categories.php?id=<?php echo $row['cat_id']; ?>" class="btn btn-primary">Delete</a>
+                                                    <!--<a href="view.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">Read More</a>-->
+                                                    <a href="add-blogs.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">Edit</a>
+                                                    <a href="add-blogs.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">Delete</a>
                                                 </th>
                                                 
                                             </tr>
