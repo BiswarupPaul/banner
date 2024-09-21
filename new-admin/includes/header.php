@@ -29,7 +29,9 @@
 <body>
         <!-- Page Wrapper -->
         <div id="wrapper">
-
+        <?php
+            session_start();
+        ?>
         <?php include("leftbar.php");?>
         <?php include("topbar.php");?>
 

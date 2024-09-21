@@ -129,16 +129,16 @@
                 <?php
                 //print_r($_SESSION);
                 //echo $_SESSION['user_name'];
-                //echo $_SESSION['fname'];?>
+                echo $_SESSION['fname'];?>
                 &nbsp;
                 <?php
-                //echo $_SESSION['lname'];
+                echo $_SESSION['lname'];
                 //echo htmlspecialchars($_SESSION['fname'], ENT_QUOTES, 'UTF-8');
                 //echo $_SESSION['pwd'];
                 ?>
                 </span>
-                <!-- <img class="img-profile rounded-circle"
-                    src="images/<?php echo $_SESSION['image'];?>">-->
+                <img class="img-profile rounded-circle"
+                    src="images/<?php echo $_SESSION['image'];?>">
                     
             </a>
             <!-- Dropdown - User Information -->
