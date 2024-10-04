@@ -96,6 +96,74 @@
     </script>
 
 
+<script>
+
+CKEDITOR.editorConfig = function(config) {
+    // Add the wordcount and notification plugins
+    config.extraPlugins = 'wordcount,notification';
+
+    // Customize your toolbar
+    config.toolbar = [
+        { name: 'document', items: ['Source', 'NewPage', 'Preview', 'Print', 'Templates'] },
+        { name: 'clipboard', items: ['Cut', 'Copy', 'Paste', 'Undo', 'Redo'] },
+        { name: 'editing', items: ['Find', 'Replace', '-', 'SelectAll'] },
+        { name: 'insert', items: ['Image', 'Table', 'HorizontalRule', 'SpecialChar'] },
+        { name: 'tools', items: ['Maximize', 'ShowBlocks', 'About'] },
+        { name: 'basicstyles', items: ['Bold', 'Italic', 'Underline', 'Strike', 'RemoveFormat'] },
+        // Add more toolbar groups and items as needed
+    ];
+
+    // Optional: Configure word count settings
+    config.wordcount = {
+        // Your word count configuration here, e.g., limit
+        showWordCount: true,
+        showCharCount: true,
+        showParagraphCount: true,
+        showSentenceCount: true,
+        showElementCount: true,
+        countSpacesAsChars: true,
+        countLineBreaksAsChars: true
+    };
+
+    // Optional: Configure notification plugin settings if necessary
+    // You can customize the notification behavior here
+};
+
+
+
+</script>
+
+ <!-- <script type="text/javascript">
+    $(document).ready(function() {
+        var maxWords = 10; // Set your word limit here
+
+        var editor = CKEDITOR.replace('blog_content');
+
+        editor.on("instanceReady", function() {
+            this.document.on("keyup", updateWordCount);
+            this.document.on("paste", updateWordCount);
+        });
+
+        function updateWordCount() {
+            var content = this.getData();
+            var text = content.replace(/<[^>]*>/g, ''); // Remove HTML tags
+            var words = text.trim().split(/\s+/);
+
+            var wordCount = words.filter(function(word) {
+                return word.length > 0;
+            }).length;
+
+            $("#wordCount").val(wordCount);
+
+            if (wordCount > maxWords) {
+                alert("You have exceeded the word limit of " + maxWords + " words.");
+                this.setData(content.substring(0, content.lastIndexOf(' '))); // Removes last word
+            }
+        }
+    });
+</script>  -->
+
+
 
 </body>
 </html>

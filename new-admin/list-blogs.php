@@ -44,6 +44,7 @@ include ('includes/header.php');
                                             <th>SN</th>
                                             <th>Title</th>
                                             <th>Category</th>
+                                            <th>Image</th>
                                             <th>Status</th>
                                             <th colspan="3">Action</th>
                                         </tr>
@@ -63,7 +64,7 @@ include ('includes/header.php');
                                         include("includes/demo_conn.php");
                                         //$select_query="SELECT * from registration";
                                         $select_query = $conn->prepare("
-                                            SELECT b.id, b.title, b.status, c.cat_name AS category
+                                            SELECT b.id, b.title, b.status, b.image, c.cat_name AS category
                                             FROM blog b
                                             JOIN categories c ON b.category = c.cat_id
                                         ");
@@ -84,6 +85,15 @@ include ('includes/header.php');
                                                 <th><?php echo $sn; ?></th>
                                                 <th><?php echo $row['title']; ?></th>
                                                 <th><?php echo $row['category']; ?></th>
+                                                <?php
+                                                // Assuming $row['image'] contains a comma-separated string of image filenames
+                                                $image_paths = explode(',', $row['image']);
+                                                ?>
+                                                <th>
+                                                    <?php foreach ($image_paths as $image_path): ?>
+                                                        <img src="images/<?php echo trim($image_path); ?>" height="120px" width="200px" style="margin-right: 5px;">
+                                                    <?php endforeach; ?>
+                                                </th>
                                                 <th><?php echo $row['status']; ?></th>
                                                 <th>
                                                     <!--<a href="view.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">Read More</a>-->

@@ -244,9 +244,11 @@ if ($id) {
                             <div class="col-md-7">
                                 <label for="content" class="form-label">Blog/Description</label>
                                 <textarea class="form-control" name="content" id="blog_content" rows="5"><?= htmlspecialchars($content ?? '') ?></textarea>
-                                <br>
-                                
-                            Total word count: <span id="display_count">0</span> words. Words left: <span id="word_left">200</span> 
+                               
+                                <div id="wordCount">Word Count: 0</div>
+                                <div id="warning" style="color: red; display: none;">Word limit exceeded!</div>
+                            
+                            
                             </div>
                         </div>
                         
@@ -283,7 +285,7 @@ if ($id) {
 </div>
 
 <script src="https://cdn.ckeditor.com/4.16.1/standard/ckeditor.js"></script>
-<script>
+<!-- <script>
     CKEDITOR.replace('blog_content', {
         extraPlugins: 'wordcount',
         wordcount: {
@@ -309,6 +311,32 @@ if ($id) {
             }
         });
     });
+</script> -->
+
+
+<script>
+  $(document).ready(function () {
+    ClassicEditor
+      .create(document.querySelector('#blog_content'))
+      .then(editor => {
+        editor.model.document.on('change:data', () => {
+          const data = editor.getData();
+          const wordCount = data.match(/\b\w+\b/g) ? data.match(/\b\w+\b/g).length : 0;
+
+          $('#wordCount').text('Words: ' + wordCount + '/20');
+
+          if (wordCount > 20) {
+            // Limit the content to the first 20 words
+            const trimmedData = data.match(/\b\w+\b/g).slice(0, 20).join(' ');
+            editor.setData(trimmedData);
+          }
+        });
+      })
+      .catch(error => {
+        console.error(error);
+      });
+  });
 </script>
+
 
 <?php include('includes/footer.php'); ?>

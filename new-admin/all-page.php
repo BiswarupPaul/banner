@@ -88,7 +88,7 @@ include ('includes/header.php');
                                                 ?>
                                                 <th>
                                                     <?php foreach ($image_paths as $image_path): ?>
-                                                        <img src="images/<?php echo trim($image_path); ?>" height="100px" width="100px" style="margin-right: 5px;">
+                                                        <img src="images/<?php echo trim($image_path); ?>" height="120px" width="200px" style="margin-right: 5px;">
                                                     <?php endforeach; ?>
                                                 </th>
                                                 <!-- <th><?php echo ($row['status']==1)? '<span class="badge bg-warning ">Active</span>':'<span class="badge bg-danger">Deactive</span>'; ?></th> -->

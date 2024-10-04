@@ -13,7 +13,7 @@ include ('includes/header.php');
                     </div>
 
                     <div class="row">
-                        <h1>Welcome to Dashboard</h1>
+                        <h1>Welcome to Creativity</h1>
 
 
                     </div>

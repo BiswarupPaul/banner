@@ -2,10 +2,14 @@
  <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
 <!-- Sidebar - Brand -->
-<a class="sidebar-brand d-flex align-items-center justify-content-center" href="../admin/dashboard.php">
-    <!-- <div class="sidebar-brand-icon ">
-        <i class="fas fa-user-graduate"></i>
-    </div> -->
+<a class="sidebar-brand d-flex align-items-center justify-content-center" href="../new-admin/dashboard.php">
+    <div class="sidebar-brand-icon ">
+        <!-- <i class="fas fa-user-graduate">
+        <a href="../new-admin/images/logo.png"></a>
+        </i> -->
+        <!-- <a href="../new-admin/images/logo.png"></a> -->
+        <img src="../new-admin/images/logo.png" alt="Italian Trulli" style="width: 200px; height: auto; margin-right: 10px;>
+    </div>
     <div class="sidebar-brand-text mx-3">PHP Admin <sup>2</sup></div>
 </a>
 
