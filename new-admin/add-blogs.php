@@ -31,11 +31,20 @@ if (isset($_GET['action']) && $_GET['action'] === 'delete') {
         $delete_query = $conn->prepare("DELETE FROM blog WHERE id = :id");
         $result = $delete_query->execute(['id' => $id]);
 
-        header('Location: list-blogs.php?delete=' . ($result ? 'success' : 'fail'));
-        exit();
-    } else {
-        header('Location: list-blogs.php?delete=fail');
-        exit();
+        if($result)
+        {
+            //echo "Insert SuccessfulL";
+            session_start();
+            $_SESSION["create"] = "Blog Deleted Successfully";
+            header('location:list-blogs.php?delete=success');
+            exit();
+        }
+        else
+        {
+            //echo "Insert UnsuccessfulL";
+            $error = $conn->errorInfo();
+            header('location:list-blogs.php?delete=fail&error='. urlencode($error[2])); // Use urlencode for error message
+        }
     }
 }
 
@@ -50,6 +59,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     $new_images = []; // Initialize this to store multiple images
     $existing_images = ''; // Initialize this to avoid undefined variable warning
+    $new_image_list = '';
 
     // Handle file uploads
     if (!empty($_FILES["uploadfile"]["name"][0])) {
@@ -81,8 +91,22 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         ];
         $inserts_query = $conn->prepare("INSERT INTO blog (title, image, category, content, status) VALUES (:title, :image, :category, :content, :status)");
         $result = $inserts_query->execute($data);
-
-        echo $result ? "Insert Successful" : "Insert Unsuccessful";
+        
+        if($result)
+        {
+            //echo "Insert SuccessfulL";
+            session_start();
+            $_SESSION["create"] = "Blog Added Successfully";
+            header('location:list-blogs.php?insert=success');
+        }
+        else
+        {
+            //echo "Insert UnsuccessfulL";
+            //$error = mysqli_error($conn);
+            $error = $conn->errorInfo();
+            header('location:list-blogs.php?insert=fail&error='. urlencode($error[2])); // Use urlencode for error message
+        }
+        //echo $result ? "Insert Successful" : "Insert Unsuccessful";
     }
 
     if ($action == 'update' && $id) {
@@ -123,8 +147,20 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         $update_query = $conn->prepare("UPDATE blog SET title = :title, image = :image, category = :category, content = :content, status = :status WHERE id = :id");
         $result = $update_query->execute($data);
-
-        echo $result ? "Update Successful" : "Update Unsuccessful";
+        ?>
+        <div class="alert alert-success">
+            <?php
+            if($result)
+            {
+                echo("Update Successfully");
+            }
+            else
+            {
+                echo("Update Unsuccessfully");
+            }
+            ?>
+        </div>
+        <?php
     }
 }
 
@@ -155,7 +191,7 @@ if ($id) {
         <div class="main">
             <div class="card">
                 <div class="card-header">
-                    <h6 class="font-weight-bold text-primary mt-2">Publish blog/article</h6>
+                    <h5 class="font-weight-bold text-primary mt-2">Publish blog/article</h5>
                 </div>
                 <div class="card-body"> 
                     <form id="blog" method="POST" enctype="multipart/form-data" autocomplete="off">
@@ -185,7 +221,7 @@ if ($id) {
                         <div class="row mb-3">
                             <div class="col-md-7">
                                 <label for="uploadfile" class="form-label">Feature Images</label>
-                                <input class="form-control" type="file" name="uploadfile[]" multiple>
+                                <input class="form-control" type="file" name="uploadfile[]" >
                                 <?php if ($image_paths): ?>
                                     <div class="mt-3">
                                         <h4>Existing Images:</h4>
@@ -209,7 +245,8 @@ if ($id) {
                                 <label for="content" class="form-label">Blog/Description</label>
                                 <textarea class="form-control" name="content" id="blog_content" rows="5"><?= htmlspecialchars($content ?? '') ?></textarea>
                                 <br>
-                                Total word count: <span id="display_count">0</span> words. Words left: <span id="word_left">200</span>
+                                
+                            Total word count: <span id="display_count">0</span> words. Words left: <span id="word_left">200</span> 
                             </div>
                         </div>
                         

@@ -22,7 +22,7 @@ include("includes/header.php");
   <?php  
 
     echo '<h1>' ;
-    echo "Welcome ". $_SESSION['user_name'] ;
+    echo "Welcome, ". $_SESSION['fname'] ;
     echo '</h1>' ;
    // echo "Welcome ".$_SESSION['pwd']; ?>
         <table class="table table-success table-bordered table-striped mt-4">

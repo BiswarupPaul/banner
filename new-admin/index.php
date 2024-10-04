@@ -120,6 +120,7 @@ session_start();
                 $_SESSION['fname'] = $row['fname'];
                 $_SESSION['lname'] = $row['lname'];
                 $_SESSION['image'] = $row['image'];
+                $_SESSION['user_name'] = $row['username'];
                 //$_SESSION['user_name'] = $username;
                 //$_SESSION['pwd'] = $pwd;
                 header('location:dashboard.php');

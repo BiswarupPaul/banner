@@ -7,12 +7,28 @@ include('includes/demo_conn.php');
 $target_dir = __DIR__ . '/images/';
 
 // Slug generation function
-function generateSlug($title) {
+function generateSlug($conn,$title, $id = null) {
     $slug = strtolower($title);
     $slug = preg_replace('/[^a-z0-9-]/', '-', $slug);
     $slug = preg_replace('/-+/', '-', $slug);
     $slug = trim($slug, '-');
     
+    // If there's an ID, append it to the slug
+    // if ($id) {
+    //     $slug .= '-' . $id;
+    // }
+    $res = $conn->prepare("SELECT slug FROM add_page WHERE slug = :slug");
+    $res->execute(['slug' => $slug]);
+    $row = $res->fetch(PDO::FETCH_ASSOC);
+    if($row)
+    {
+        $res = $conn->prepare("SELECT max(id) as id FROM add_page");
+        $res->execute();
+        $row = $res->fetch(PDO::FETCH_ASSOC);
+        $id = $row['id'];
+        $id++;
+        $slug=$slug.'-'.$id;
+    }
     return $slug;
 }
 
@@ -38,11 +54,20 @@ if (isset($_GET['action']) && $_GET['action'] === 'delete') {
         $delete_query = $conn->prepare("DELETE FROM add_page WHERE id = :id");
         $result = $delete_query->execute(['id' => $id]);
 
-        header('Location: all-page.php?delete=' . ($result ? 'success' : 'fail'));
-        exit();
-    } else {
-        header('Location: all-page.php?delete=fail');
-        exit();
+        if($result)
+        {
+            //echo "Insert SuccessfulL";
+            session_start();
+            $_SESSION["create"] = "Page Deleted Successfully";
+            header('location:all-page.php?delete=success');
+            exit();
+        }
+        else
+        {
+            //echo "Insert UnsuccessfulL";
+            $error = $conn->errorInfo();
+            header('location:all-page.php?delete=fail&error='. urlencode($error[2])); // Use urlencode for error message
+        }
     }
 }
 
@@ -54,9 +79,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $id = $_POST['id'] ?? null;
 
     // Generate the slug
-    $slug = generateSlug($title);
+    //$a=$conn->$prepare("SELECT slug FROM add_page WHERE id = :id");
+    $slug = generateSlug($conn, $title);
+    $new_images = []; // Initialize this to store multiple images
+    $existing_images = ''; // Initialize this to avoid undefined variable warning
+    $new_image_list = '';
 
-    $uploaded_files = [];
+    //$uploaded_files = [];
     if (!empty($_FILES["uploadfile"]["name"][0])) {
         foreach ($_FILES["uploadfile"]["name"] as $key => $val) {
             if ($_FILES['uploadfile']['error'][$key] === UPLOAD_ERR_OK) {
@@ -65,7 +94,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 $target_file = $target_dir . $file;
                 
                 if (move_uploaded_file($_FILES['uploadfile']['tmp_name'][$key], $target_file)) {
-                    $uploaded_files[] = $file;
+                    $new_images[] = $file;
                 } else {
                     echo "Error uploading file " . htmlspecialchars($val) . ".<br>";
                 }
@@ -73,47 +102,94 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 echo "Error code " . $_FILES['uploadfile']['error'][$key] . " for file " . htmlspecialchars($val) . ".<br>";
             }
         }
+        $new_image_list = implode(', ', $new_images); // Save as comma-separated string
     }
 
     // Determine the image path
-    $image_path = $uploaded_files[0] ?? '';
+    //$image_path = $uploaded_files[0] ?? '';
 
     if ($action == 'publish') {
         $data = [
             'title' => $title,
             'content' => $content,
             'slug' => $slug,
-            'image' => $image_path
+            'image' => $new_image_list
         ];
         $inserts_query = $conn->prepare("INSERT INTO add_page (title, content, slug, image) VALUES (:title, :content, :slug, :image)");
         $result = $inserts_query->execute($data);
-        echo $result ? "Insert Successful" : "Insert Unsuccessful";
+
+        if($result)
+        {
+            //echo "Insert Successfull";
+            session_start();
+            $_SESSION["create"] = "Page Added Successfully";
+            header('location:all-page.php?insert=success');
+        }
+        else
+        {
+            //echo "Insert UnsuccessfulL";
+            //$error = mysqli_error($conn);
+            $error = $conn->errorInfo();
+            header('location:all-page.php?insert=fail&error='. urlencode($error[2])); // Use urlencode for error message
+        }
+
+        //echo $result ? "Insert Successful" : "Insert Unsuccessful";
     }
 
     if ($action == 'update' && $id) {
-        // Fetch existing image if updating
-        $select_query = $conn->prepare("SELECT image FROM add_page WHERE id = :id");
-        $select_query->execute(['id' => $id]);
-        $row = $select_query->fetch(PDO::FETCH_ASSOC);
 
-        // Delete old image
-        if ($row && $row['image']) {
-            $old_image_path = $target_dir . $row['image'];
-            if (file_exists($old_image_path)) {
-                unlink($old_image_path);
+        //$slug = generateSlug($title, $id);
+
+        // Fetch existing image if any
+        if (!$new_images) {
+            $select_query = $conn->prepare("SELECT image FROM add_page WHERE id = :id");
+            $select_query->execute(['id' => $id]);
+            $row = $select_query->fetch(PDO::FETCH_ASSOC);
+            if ($row) {
+                $existing_images = $row['image']; // Get existing images
+            }
+        } else {
+            // Remove existing images if new images are uploaded
+            $select_query = $conn->prepare("SELECT image FROM add_page WHERE id = :id");
+            $select_query->execute(['id' => $id]);
+            $row = $select_query->fetch(PDO::FETCH_ASSOC);
+            if ($row) {
+                $existing_images = $row['image'];
+                $image_files = explode(', ', $existing_images);
+                foreach ($image_files as $image_file) {
+                    $existing_image_path = $target_dir . $image_file;
+                    // Check if it's a file and then delete
+                    if (file_exists($existing_image_path) && !is_dir($existing_image_path)) {
+                        unlink($existing_image_path); // Delete the old image file
+                    }
+                }
             }
         }
 
         $data = [
             'title' => $title,
-            'image' => $image_path,
+            'image' => $new_image_list ?: $existing_images, // Use the new images if uploaded, otherwise keep existing
             'content' => $content,
             'slug' => $slug,
             'id' => $id
         ];
         $update_query = $conn->prepare("UPDATE add_page SET title = :title, image = :image, content = :content, slug = :slug WHERE id = :id");
         $result = $update_query->execute($data);
-        echo $result ? "Update Successful" : "Update Unsuccessful";
+        ?>
+        <div class="alert alert-success">
+            <?php
+            if($result)
+            {
+                echo("Update Successfully");
+            }
+            else
+            {
+                echo("Update Unsuccessfully");
+            }
+            ?>
+        </div>
+        <?php
+        //echo $result ? "Update Successful" : "Update Unsuccessful";
     }
 }
 
@@ -173,11 +249,15 @@ if ($id) {
                                 <?php if ($image_paths): ?>
                                     <div class="mt-3">
                                         <h4>Existing Images:</h4>
-                                        <?php if (file_exists($target_dir . $image_paths)): ?>
-                                            <img src="images/<?= htmlspecialchars($image_paths) ?>" alt="Banner Image" style="width: 100px; height: auto; margin-right: 10px;">
-                                        <?php else: ?>
-                                            <p>Image file not found: <?= htmlspecialchars($image_paths) ?></p>
-                                        <?php endif; ?>
+                                        <?php 
+                                        $image_files = explode(', ', $image_paths); 
+                                        foreach ($image_files as $image_file): ?>
+                                            <?php if (file_exists($target_dir . $image_file)): ?>
+                                                <img src="images/<?= htmlspecialchars($image_file) ?>" alt="Page Image" style="width: 100px; height: auto; margin-right: 10px;">
+                                            <?php else: ?>
+                                                <p>Image file not found: <?= htmlspecialchars($image_file) ?></p>
+                                            <?php endif; ?>
+                                        <?php endforeach; ?>
                                     </div>
                                 <?php endif; ?>
                             </div>

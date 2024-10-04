@@ -1,7 +1,20 @@
 <?php
 include ('includes/header.php');
 ?>
-
+<?php
+    
+    if(isset($_SESSION["create"]))
+    {
+        ?>
+        <div class="alert alert-success">
+            <?php
+            echo $_SESSION["create"];
+            unset($_SESSION["create"]);
+            ?>
+        </div>
+        <?php
+    }
+?>
 
 
 <div class="container-fluid">
@@ -15,7 +28,7 @@ include ('includes/header.php');
                         <div class="card-header py-3">
                             <div class="row mb-3">
                                 <div class=" col-md-10">
-                                    <h6 class="m-0 font-weight-bold text-primary">List</h6>
+                                    <h5 class="m-0 font-weight-bold text-primary">List</h5>
                                 </div>
                                 <div class=" col-md-2">
                                     <a href="add-blogs.php" class="btn btn-primary">Add Blogs</a>

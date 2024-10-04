@@ -3,10 +3,10 @@
 
 <!-- Sidebar - Brand -->
 <a class="sidebar-brand d-flex align-items-center justify-content-center" href="../admin/dashboard.php">
-    <div class="sidebar-brand-icon rotate-n-15">
-        <i class="fas fa-laugh-wink"></i>
-    </div>
-    <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+    <!-- <div class="sidebar-brand-icon ">
+        <i class="fas fa-user-graduate"></i>
+    </div> -->
+    <div class="sidebar-brand-text mx-3">PHP Admin <sup>2</sup></div>
 </a>
 
 <!-- Divider -->
@@ -37,8 +37,10 @@
     <div id="collapsebanner" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
             
-            <a class="collapse-item" href="list-banner.php">List Banner</a>
-            <a class="collapse-item" href="home-banner.php">Home Banner</a>
+            <a class="collapse-item" href="list-banner.php"><i class="fas fa-fw fa-list"></i>
+            <span>List Banner</span></a>
+            <a class="collapse-item" href="home-banner.php"><i class="fa fa-home" aria-hidden="true"></i>
+            <span>Home Banner</span></a>
         </div>
     </div>
 </li>
@@ -79,7 +81,7 @@
 <!-- Nav Item - Tables -->
 <li class="nav-item">
     <a class="nav-link" href="../new-admin/tables.php">
-        <i class="fas fa-fw fa-table"></i>
+        <i class="fas fa-user-friends"></i>
         <span>User Details</span></a>
 </li>
 
@@ -111,9 +113,9 @@
 
 <!-- Nav Item - Setting -->
 <li class="nav-item">
-    <a class="nav-link" href="../new-admin/dashboard.php">
+    <a class="nav-link" href="../new-admin/setting.php">
         <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-        <span>Setting</span></a>
+        <span>General Setting</span></a>
 </li>
 
 <!-- Divider -->

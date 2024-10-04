@@ -1,7 +1,20 @@
 <?php
 include ('includes/header.php');
 ?>
-
+<?php
+    
+    if(isset($_SESSION["create"]))
+    {
+        ?>
+        <div class="alert alert-success">
+            <?php
+            echo $_SESSION["create"];
+            unset($_SESSION["create"]);
+            ?>
+        </div>
+        <?php
+    }
+?>
 
 
 <div class="container-fluid">

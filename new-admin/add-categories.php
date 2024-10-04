@@ -10,12 +10,20 @@ if (isset($_GET['action']) && $_GET['action'] === 'delete') {
     if ($id) {
         $delete_query = $conn->prepare("DELETE FROM categories WHERE cat_id = :id");
         $result = $delete_query->execute(['id' => $id]);
-
-        header('Location: list-categories.php?delete=' . ($result ? 'success' : 'fail'));
-        exit();
-    } else {
-        header('Location: list-categories.php?delete=fail');
-        exit();
+        if($result)
+        {
+            //echo "Insert SuccessfulL";
+            session_start();
+            $_SESSION["create"] = "Category Deleted Successfully";
+            header('location:list-categories.php?delete=success');
+            exit();
+        }
+        else
+        {
+            //echo "Insert UnsuccessfulL";
+            $error = $conn->errorInfo();
+            header('location:list-categories.php?delete=fail&error='. urlencode($error[2])); // Use urlencode for error message
+        }
     }
 }
 
@@ -31,7 +39,21 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         ];
         $inserts_query = $conn->prepare("INSERT INTO categories (cat_name) VALUES (:cat_name)");
         $result = $inserts_query->execute($data);
-        echo $result ? "Insert Successful" : "Insert Unsuccessful";
+        if($result)
+        {
+            //echo "Insert SuccessfulL";
+            session_start();
+            $_SESSION["create"] = "Category Added Successfully";
+            header('location:list-categories.php?insert=success');
+        }
+        else
+        {
+            //echo "Insert UnsuccessfulL";
+            //$error = mysqli_error($conn);
+            $error = $conn->errorInfo();
+            header('location:list-categories.php?insert=fail&error='. urlencode($error[2])); // Use urlencode for error message
+        }
+        //echo $result ? "Insert Successful" : "Insert Unsuccessful";
     }
 
     if ($action == 'update' && $id) {
@@ -41,7 +63,21 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         ];
         $update_query = $conn->prepare("UPDATE categories SET cat_name = :cat_name WHERE cat_id = :cat_id");
         $result = $update_query->execute($data);
-        echo $result ? "Update Successful" : "Update Unsuccessful";
+        ?>
+        <div class="alert alert-success">
+            <?php
+            if($result)
+            {
+                echo("Update Successfully");
+            }
+            else
+            {
+                echo("Update Unsuccessfully");
+            }
+            ?>
+        </div>
+        <?php
+        //echo $result ? "Update Successful" : "Update Unsuccessful";
     }
 }
 

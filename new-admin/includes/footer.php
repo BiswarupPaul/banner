@@ -76,5 +76,26 @@
 
 </script> -->
 
+<script type="text/javascript">
+    $(document).ready(function()
+    {
+        var editor = CKEDITOR.replace('blog_content');
+        editor.on("instanceReady", function(){
+            this.document.on("keyup", ck_jq);
+            this.document.on("paste", ck_jq);
+        });
+
+    });
+
+    function ck_jq()
+    {
+        var len = CKEDITOR.instances['blog_content'].getData().replace(/<("[^"]*"|'[^']*'|[^'">])*>/gi, '').replace(/^\s+|\s+$/g, '');
+        $("#display_count").val(len.length);
+    }
+
+    </script>
+
+
+
 </body>
 </html>
