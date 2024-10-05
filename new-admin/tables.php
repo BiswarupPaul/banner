@@ -43,8 +43,8 @@ include ('includes/header.php');
                         }
                         ?>
                         <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                            <div class="table-responsive datatable ">
+                                <table class="table table-bordered" id="example" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
                                             <th>SN</th>

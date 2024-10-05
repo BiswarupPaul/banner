@@ -41,6 +41,19 @@
     <!-- Page level custom scripts -->
     <!-- <script src="js/demo/chart-area-demo.js"></script>
     <script src="js/demo/chart-pie-demo.js"></script> -->
+
+
+        <!-- Page level plugins -->
+    <!-- <script src="vendor/datatables/jquery.dataTables.min.js"></script> -->
+    <!-- <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script> -->
+
+    <!-- Page level custom scripts -->
+    <!-- <script src="js/demo/datatables-demo.js"></script> -->
+    <script src="vendors/jquery.dataTables.min.js"></script>
+    <script src="vendors/dataTables.bootstrap5.min.js"></script>
+    <script src="vendors/dataTables.responsive.min.js"></script>
+
+    
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
@@ -52,7 +65,24 @@
             });
             $('.dropdown-toggle').dropdown();
         });
+
+  
     </script>
+
+
+
+<script> 
+  
+  // Initialize the DataTable 
+  jQuery(document).ready(function () { 
+    jQuery('#example').DataTable({ 
+
+          // Disable the searching  
+          // of the DataTable 
+          searching: true,
+      }); 
+  }); 
+</script> 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/additional-methods.min.js"></script>

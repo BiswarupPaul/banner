@@ -107,7 +107,7 @@ $banner_image = !empty($options['banner_image']) ? explode(', ', $options['banne
                                     <div class="banner-item mb-3">
                                         <input type="file" name="banner_image[]" class="form-control">
                                         <?php if (file_exists($target_dir . $val)): ?>
-                                            <img src="images/<?= htmlspecialchars($val) ?>" alt="Banner Image" style="width: 100px; height: auto; margin-right: 10px;">
+                                            <img src="images/<?= htmlspecialchars($val) ?>" alt="Banner Image" style="width: 200px; height: auto; margin-right: 10px;">
                                             <form method="POST" action="delete-banner-image.php" style="display:inline;">
                                                 <input type="hidden" name="delete_image" value="<?= htmlspecialchars($val) ?>">
                                                 <button type="submit" class="btn btn-outline-danger btn-sm">Delete</button>

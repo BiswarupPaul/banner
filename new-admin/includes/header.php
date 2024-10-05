@@ -23,6 +23,9 @@
     <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
 
+    <!-- Custom styles for this page -->
+    <link href="vendors/dataTables.bootstrap5.min.css" rel="stylesheet">
+    <link href="vendors/responsive.bootstrap5.min.css" rel="stylesheet">
 
 
 </head>
