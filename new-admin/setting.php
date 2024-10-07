@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $whatsapp_no_string = implode(', ', $whatsapp_no);
     $email_id_string = implode(', ', $email_id);
 
-    if ($action == 'save' || $action == 'update') {
+    // if ($action == 'save' || $action == 'update') {
         // Prepare to insert or update records
         $queries = [
             ['option_name' => 'website_name', 'option_value' => $website_name],
@@ -60,12 +60,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         ];
 
         foreach ($queries as $data) {
-            $query = $conn->prepare("INSERT INTO setting (option_name, option_value) VALUES (:option_name, :option_value) ON DUPLICATE KEY UPDATE option_value = :option_value");
-            $result = $query->execute([':option_name' => $data['option_name'], ':option_value' => $data['option_value']]);
+            $query = $conn->prepare("UPDATE setting SET option_value = :option_value WHERE option_name = :option_name");
+            $result = $query->execute($data);
         }
 
         echo $result ? "Save Successful" : "Save Unsuccessful";
-    }
+    // }
 }
 ?>
 
@@ -179,10 +179,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         </div>
 
                         <!-- Form Actions -->
-                        <input type="hidden" name="action" value="<?= $id ? 'update' : 'save' ?>">
+                        <!-- <input type="hidden" name="action" value="<?= $id ? 'update' : 'save' ?>">
                         <?php if ($id): ?>
                             <input type="hidden" name="id" value="<?= htmlspecialchars($id) ?>">
-                        <?php endif; ?>
+                        <?php endif; ?> -->
                         <button type="submit" class="btn btn-primary">Save</button>
                     </form>
                     
