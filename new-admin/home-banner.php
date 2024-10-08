@@ -39,39 +39,32 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Prepare to insert or update records
     if ($action == 'publish' || $action == 'update') {
         // Check if record exists
-        $stmt = $conn->prepare("SELECT COUNT(*) FROM home_banner WHERE option_name IN ('title', 'banner_image')");
+        $stmt = $conn->prepare("SELECT COUNT(*) FROM home_banner");
         $stmt->execute();
         $record_exists = $stmt->fetchColumn() > 0;
-
+    
+        $queries = [
+            ['option_name' => 'title', 'option_value' => $title],
+            ['option_name' => 'banner_image', 'option_value' => $bannerimage_paths]
+        ];
+    
         if (!$record_exists) {
             // Insert new records
-            $queries = [
-                ['option_name' => 'title', 'option_value' => $title],
-                ['option_name' => 'banner_image', 'option_value' => $bannerimage_paths]
-            ];
-
             foreach ($queries as $data) {
                 $query = $conn->prepare("INSERT INTO home_banner (option_name, option_value) VALUES (:option_name, :option_value)");
                 $result = $query->execute($data);
             }
-
             echo $result ? "Insert Successful" : "Insert Unsuccessful";
         } else {
             // Update existing records
-            $queries = [
-                ['option_name' => 'title', 'option_value' => $title],
-                ['option_name' => 'banner_image', 'option_value' => $bannerimage_paths]
-            ];
-
             foreach ($queries as $data) {
                 $query = $conn->prepare("UPDATE home_banner SET option_value = :option_value WHERE option_name = :option_name");
                 $result = $query->execute($data);
             }
-
             echo $result ? "Update Successful" : "Update Unsuccessful";
         }
     }
-}
+}    
 
 // Fetch existing options for displaying in the form
 $options = [];
@@ -110,6 +103,7 @@ $banner_image = !empty($options['banner_image']) ? explode(', ', $options['banne
                                             <img src="images/<?= htmlspecialchars($val) ?>" alt="Banner Image" style="width: 200px; height: auto; margin-right: 10px;">
                                             <form method="POST" action="delete-banner-image.php" style="display:inline;">
                                                 <input type="hidden" name="delete_image" value="<?= htmlspecialchars($val) ?>">
+                                                <input type="hidden" name="id" value="<?= htmlspecialchars($id) ?>"> <!-- Include ID -->
                                                 <button type="submit" class="btn btn-outline-danger btn-sm">Delete</button>
                                             </form>
                                         <?php else: ?>
@@ -130,7 +124,8 @@ $banner_image = !empty($options['banner_image']) ? explode(', ', $options['banne
                 </div>
 
                 <!-- Form Actions -->
-                <input type="hidden" name="action" value="publish">
+                <!-- <input type="hidden" name="action" value="publish"> -->
+                <input type="hidden" name="action" value="<?= isset($options['id']) ? 'publish' : 'update' ?>">
                 <div class="row mb-4">
                     <div class="col-md-6">
                         <button type="submit" class="btn btn-primary">Save</button>
