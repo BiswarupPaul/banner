@@ -1,0 +1,885 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]>  <html class="no-js iem7"> <![endif]-->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="ie9"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)|(gt IE 8)]><!-->
+<html lang="en-US" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- NO HTTPS AVAILABLE 	<link rel="profile" href="http://gmpg.org/xfn/11">  -->
+	<link rel="pingback" href="https://www.sciencefriday.com/xmlrpc.php">
+	<link rel="shortcut icon" href="https://www.sciencefriday.com/wp-content/themes/sciencefriday/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="57x57" href="https://www.sciencefriday.com/wp-content/themes/sciencefriday/images/icons/touch-icons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="https://www.sciencefriday.com/wp-content/themes/sciencefriday/images/icons/touch-icons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="https://www.sciencefriday.com/wp-content/themes/sciencefriday/images/icons/touch-icons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="https://www.sciencefriday.com/wp-content/themes/sciencefriday/images/icons/touch-icons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="https://www.sciencefriday.com/wp-content/themes/sciencefriday/images/icons/touch-icons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="https://www.sciencefriday.com/wp-content/themes/sciencefriday/images/icons/touch-icons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="https://www.sciencefriday.com/wp-content/themes/sciencefriday/images/icons/touch-icons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="https://www.sciencefriday.com/wp-content/themes/sciencefriday/images/icons/touch-icons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://www.sciencefriday.com/wp-content/themes/sciencefriday/images/icons/touch-icons/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="https://www.sciencefriday.com/wp-content/themes/sciencefriday/images/icons/touch-icons/android-chrome-192x192.png" sizes="192x192">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="https://www.sciencefriday.com/wp-content/themes/sciencefriday/images/icons/touch-icons/mstile-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+            	                                    
+	<link type="text/css" rel="stylesheet" href="https://fast.fonts.net/cssapi/3f63d129-3acd-4f74-b7b4-759653645f9d.css"/>
+
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<script>
+		window.addEventListener( 'DOMContentLoaded', addHrefToLinks );
+		function addHrefToLinks() {
+			var wt_cli_links = document.querySelectorAll( '#cookie-law-info-bar a, #cliSettingsPopup a' );
+			wt_cli_links.forEach( el => {
+				if(!el.hasAttribute('href'))
+					el.href = "#";
+			});
+		}
+	</script>
+	
+	<!-- This site is optimized with the Yoast SEO Premium plugin v22.5 (Yoast SEO v22.7) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Why Is It So Hard To Agree On When Human Life Starts?</title>
+	<meta name="description" content="For decades, the U.S. medical establishment has adhered to a legally recognized standard for death. Why not for the inception of life?" />
+	<link rel="canonical" href="https://www.sciencefriday.com/segments/definition-of-life-legislation/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Why Is It So Hard To Agree On When Human Life Starts?" />
+	<meta property="og:description" content="For decades, the U.S. medical establishment has adhered to a legally recognized standard for death. Why not for the inception of life?" />
+	<meta property="og:url" content="https://www.sciencefriday.com/segments/definition-of-life-legislation/" />
+	<meta property="og:site_name" content="Science Friday" />
+	<meta property="article:publisher" content="https://www.facebook.com/scifri" />
+	<meta property="article:modified_time" content="2022-09-06T15:13:58+00:00" />
+	<meta property="og:image" content="https://www.sciencefriday.com/wp-content/uploads/2022/09/KHN-Life-and-Death.jpeg" />
+	<meta property="og:image:width" content="1400" />
+	<meta property="og:image:height" content="933" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Why Is It So Hard To Agree On When Human Life Starts?" />
+	<meta name="twitter:description" content="For decades, the U.S. medical establishment has adhered to a legally recognized standard for death. Why not for the inception of life?" />
+	<meta name="twitter:site" content="@scifri" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.sciencefriday.com/segments/definition-of-life-legislation/","url":"https://www.sciencefriday.com/segments/definition-of-life-legislation/","name":"Why Is It So Hard To Agree On When Human Life Starts?","isPartOf":{"@id":"https://www.sciencefriday.com/#website"},"primaryImageOfPage":{"@id":"https://www.sciencefriday.com/segments/definition-of-life-legislation/#primaryimage"},"image":{"@id":"https://www.sciencefriday.com/segments/definition-of-life-legislation/#primaryimage"},"thumbnailUrl":"https://www.sciencefriday.com/wp-content/uploads/2022/09/KHN-Life-and-Death.jpeg","datePublished":"2022-09-02T04:00:39+00:00","dateModified":"2022-09-06T15:13:58+00:00","description":"For decades, the U.S. medical establishment has adhered to a legally recognized standard for death. Why not for the inception of life?","breadcrumb":{"@id":"https://www.sciencefriday.com/segments/definition-of-life-legislation/#breadcrumb"},"inLanguage":"en-US","potentialAction":{"@type":"ListenAction","target":"https://www.sciencefriday.com/segments/definition-of-life-legislation/#podcast_player_67148","object":{"@id":"https://www.sciencefriday.com/segments/definition-of-life-legislation/#/schema/podcast"}},"mainEntityOfPage":"https://www.sciencefriday.com/segments/definition-of-life-legislation/#/schema/podcast"},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.sciencefriday.com/segments/definition-of-life-legislation/#primaryimage","url":"https://www.sciencefriday.com/wp-content/uploads/2022/09/KHN-Life-and-Death.jpeg","contentUrl":"https://www.sciencefriday.com/wp-content/uploads/2022/09/KHN-Life-and-Death.jpeg","width":1400,"height":933,"caption":"Credit: Eric Harkleroad, KHN illustration; Getty Images; Unsplash."},{"@type":"BreadcrumbList","@id":"https://www.sciencefriday.com/segments/definition-of-life-legislation/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.sciencefriday.com/"},{"@type":"ListItem","position":2,"name":"Segments","item":"https://www.sciencefriday.com/segments/"},{"@type":"ListItem","position":3,"name":"Why Is It So Hard To Agree On When Human Life Starts?"}]},{"@type":"WebSite","@id":"https://www.sciencefriday.com/#website","url":"https://www.sciencefriday.com/","name":"Science Friday","description":"Science, technology, and other cool stuff from public radio&#039;s Science Friday.","publisher":{"@id":"https://www.sciencefriday.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.sciencefriday.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://www.sciencefriday.com/#organization","name":"Science Friday","url":"https://www.sciencefriday.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.sciencefriday.com/#/schema/logo/image/","url":"https://www.sciencefriday.com/wp-content/uploads/2019/05/scifri-logo.png","contentUrl":"https://www.sciencefriday.com/wp-content/uploads/2019/05/scifri-logo.png","width":1000,"height":389,"caption":"Science Friday"},"image":{"@id":"https://www.sciencefriday.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/scifri","https://x.com/scifri","http://youtube.com/scifri"]},{"@type":"PodcastEpisode","@id":"https://www.sciencefriday.com/segments/definition-of-life-legislation/#/schema/podcast","eventAttendanceMode":"https://schema.org/OnlineEventAttendanceMode","location":{"@type":"VirtualLocation","url":"https://www.sciencefriday.com/segments/definition-of-life-legislation/","@id":"https://www.sciencefriday.com/segments/definition-of-life-legislation/#webpage"},"url":"https://www.sciencefriday.com/segments/definition-of-life-legislation/","name":"Why Is It So Hard To Agree On When Human Life Starts?","datePublished":"2022-09-02","description":"For decades, the U.S. medical establishment has adhered to a legally recognized standard for death. Why not for the inception of life?","duration":"P12M","audio":{"contentUrl":"https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/sciencefriday/scifri202209025.mp3","contentSize":"11750593","@type":"AudioObject"},"partOfSeries":[{"@type":"PodcastSeries","name":"Podcast Segment","url":"https://www.sciencefriday.com/series/podcast-segment/","id":"https://www.sciencefriday.com/series/podcast-segment/#/schema/podcastSeries"}]}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//cdn.parsely.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//static.everyaction.com' />
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link rel="alternate" type="application/rss+xml" title="Science Friday &raquo; Feed" href="https://www.sciencefriday.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Science Friday &raquo; Comments Feed" href="https://www.sciencefriday.com/comments/feed/" />
+<link rel='stylesheet' id='all-css-0' href='https://www.sciencefriday.com/wp-includes/css/dist/block-library/style.min.css?m=1721926675g' type='text/css' media='all' />
+<style id='wp-parsely-recommendations-style-inline-css'>
+.parsely-recommendations-list-title{font-size:1.2em}.parsely-recommendations-list{list-style:none;padding:unset}.parsely-recommendations-cardbody{overflow:hidden;padding:.8em;text-overflow:ellipsis;white-space:nowrap}.parsely-recommendations-cardmedia{padding:.8em .8em 0}
+
+</style>
+<link rel='stylesheet' id='all-css-4' href='https://www.sciencefriday.com/_static/??-eJzTLy/QzcxLzilNSS3WzyrWz01NyUxMzUnNTc0rQeEU5CRWphbp5qSmJyZX6uVm5uklFxfr6OPTDpRD5sM02efaGpobGVoamZmZmwEARMcu6g==' type='text/css' media='all' />
+<style id='jetpack-sharing-buttons-style-inline-css'>
+.jetpack-sharing-buttons__services-list{display:flex;flex-direction:row;flex-wrap:wrap;gap:0;list-style-type:none;margin:5px;padding:0}.jetpack-sharing-buttons__services-list.has-small-icon-size{font-size:12px}.jetpack-sharing-buttons__services-list.has-normal-icon-size{font-size:16px}.jetpack-sharing-buttons__services-list.has-large-icon-size{font-size:24px}.jetpack-sharing-buttons__services-list.has-huge-icon-size{font-size:36px}@media print{.jetpack-sharing-buttons__services-list{display:none!important}}.editor-styles-wrapper .wp-block-jetpack-sharing-buttons{gap:0;padding-inline-start:0}ul.jetpack-sharing-buttons__services-list.has-background{padding:1.25em 2.375em}
+</style>
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='all-css-10' href='https://www.sciencefriday.com/_static/??-eJy1UsluAyEM/aE6VttsPVT9FhYztcrACDOl8/cBEnVR00OV5GIZ/BbkB5YJTAyZQsbJzwMHQU3KgSYXE4EKFpTLlGBQ3lNaUIlQFvSsBV1lgiokcaR+OPVrNPJzuho5rOrlHd7EcNMNK+HGPtsr+yQa+YMr/6v7U7WQztE5IhjslOo4vjE1lHTUrD2b/rzTxKsCHFyE4+j6ug3+SzW/0kiCYpiCIZfYqqWzJS+e/gFv5Z2CjQml8FQXqOdg/fmfdFam5Sbf0+vCOtVI5PL8mlYulbYc6+VqWrkBPtf0Mj7f7x4e1/un/W57AKVkYRM=' type='text/css' media='all' />
+<style id='cookie-law-info-gdpr-inline-css'>
+.cli-modal-content, .cli-tab-content { background-color: #ffffff; }.cli-privacy-content-text, .cli-modal .cli-modal-dialog, .cli-tab-container p, a.cli-privacy-readmore { color: #000000; }.cli-tab-header { background-color: #f2f2f2; }.cli-tab-header, .cli-tab-header a.cli-nav-link,span.cli-necessary-caption,.cli-switch .cli-slider:after { color: #000000; }.cli-switch .cli-slider:before { background-color: #ffffff; }.cli-switch input:checked + .cli-slider:before { background-color: #ffffff; }.cli-switch .cli-slider { background-color: #e3e1e8; }.cli-switch input:checked + .cli-slider { background-color: #28a745; }.cli-modal-close svg { fill: #000000; }.cli-tab-footer .wt-cli-privacy-accept-all-btn { background-color: #00acad; color: #ffffff}.cli-tab-footer .wt-cli-privacy-accept-btn { background-color: #00acad; color: #ffffff}.cli-tab-header a:before{ border-right: 1px solid #000000; border-bottom: 1px solid #000000; }
+</style>
+<script type="text/javascript" id="ajaxify-js-js-extra">
+/* <![CDATA[ */
+var aws_data = {"rootUrl":"https:\/\/www.sciencefriday.com\/","ids":"#no-ajaxify a","container_id":"content","mcdc":"menu-container","searchID":"#search-form","transition":"","scrollTop":"","loader":"","bp_status":""};
+/* ]]> */
+</script>
+<script type="text/javascript" id="cookie-law-info-js-extra">
+/* <![CDATA[ */
+var Cli_Data = {"nn_cookie_ids":["incap_ses_8076_823975","incap_ses_8076_972453","incap_ses_1319_2233503","incap_ses_1319_823975","incap_ses_1319_972453","incap_ses_1185_2233503","incap_ses_1185_823975","incap_ses_1185_972453","incap_ses_1580_2233503","incap_ses_1580_823975","incap_ses_1580_972453","incap_ses_375_2233503","incap_ses_375_823975","incap_ses_375_972453","incap_ses_8076_2233503","AWSALB","_gat_UA-28243511-22","__jid","_gat","countryCode","yt.innertube::nextId","_parsely_session","_parsely_visitor","_ga","_gid","_gat_UA-2828400-1","CONSENT","disqus_unique","vuid","browser_id","user_id","ajs_user_id","ajs_group_id","ajs_anonymous_id","UID","__cf_bm","UserMatchHistory","lang","bcookie","lidc","bscookie","S","sp_t","sp_landing","incap_ses_455_972453","AWSALBCORS","TiPMix","x-ms-routing-name","visid_incap_972453","nlbi_972453","ASP.NET_SessionId","X-Mapping-fjhppofk","JSESSIONID","csrftoken","PHPSESSID","_abck","bm_sz","test_cookie","_fbp","fr","IDE","personalization_id","YSC","VISITOR_INFO1_LIVE","yt-remote-device-id","yt-remote-connected-devices","NID","vglnk.Agent.p","vglnk.PartnerRfsh.p","yt.innertube::requests","incap_ses_340_972453","incap_ses_374_2233503","incap_ses_374_823975","incap_ses_374_972453","cookies.js_dtest","loglevel","ARRAffinityCU","donation-identifier","abtest-identifier","GFE_RTT","tableau_locale","tableau_public_negotiated_locale","xb","ccc","request_method","msToken","ttwid","s_v_web_id","tt_csrf_token","f","R6kq3TV7","debug","NSC_cjbnbqt.epj.hpw_443","incap_ses_455_2233503","incap_ses_455_823975","li_gc","Path","_dc_gtm_UA-28243511-20","visid_incap_2233503","nlbi_2233503","incap_ses_198_2233503","visid_incap_823975","nlbi_823975","incap_ses_198_823975","incap_ses_198_972453","Secure","COMPASS","incap_ses_867_2233503","incap_ses_867_823975","incap_ses_867_972453","incap_ses_1364_2233503","incap_ses_1364_823975","incap_ses_1364_972453","NSC_QH-PMY","incap_ses_9117_2233503","incap_ses_9117_823975","incap_ses_9117_972453","incap_ses_340_2233503","incap_ses_340_823975","AnalyticsSyncHistory","muc_ads"],"non_necessary_cookies":{"necessary":["x-ms-routing-name","bm_sz","_abck","PHPSESSID","csrftoken","JSESSIONID","X-Mapping-fjhppofk","ASP.NET_SessionId","nlbi_972453","visid_incap_972453","TiPMix","AWSALBCORS","cookielawinfo-checkbox-advertisement"],"functional":["__cf_bm","UserMatchHistory","lang","bcookie","lidc","bscookie","S","sp_t","sp_landing"],"performance":["AWSALB","_gat_UA-28243511-22","__jid","_gat","countryCode"],"audience":["_parsely_session","_parsely_visitor","_ga","_gid","_gat_UA-2828400-1","CONSENT","disqus_unique","vuid","browser_id","user_id","ajs_user_id","ajs_group_id","ajs_anonymous_id","UID"],"advertisement":["yt.innertube::nextId","test_cookie","_fbp","fr","IDE","personalization_id","YSC","VISITOR_INFO1_LIVE","yt-remote-device-id","yt-remote-connected-devices","NID","vglnk.Agent.p","vglnk.PartnerRfsh.p","yt.innertube::requests"],"others":["incap_ses_375_972453","incap_ses_8076_823975","incap_ses_8076_972453","incap_ses_1319_2233503","incap_ses_1319_823975","incap_ses_1319_972453","incap_ses_1185_2233503","incap_ses_1185_823975","incap_ses_1580_2233503","incap_ses_1580_823975","incap_ses_1580_972453","incap_ses_375_2233503","incap_ses_375_823975","incap_ses_1185_972453","incap_ses_8076_2233503","incap_ses_455_972453","abtest-identifier","donation-identifier","GFE_RTT","tableau_locale","tableau_public_negotiated_locale","xb","ccc","request_method","msToken","ttwid","s_v_web_id","tt_csrf_token","f","R6kq3TV7","debug","NSC_cjbnbqt.epj.hpw_443","incap_ses_455_2233503","incap_ses_455_823975","ARRAffinityCU","loglevel","cookies.js_dtest","incap_ses_374_972453","incap_ses_374_823975","incap_ses_374_2233503","incap_ses_340_972453","COMPASS","incap_ses_1364_2233503","Secure","incap_ses_198_972453","incap_ses_198_823975","nlbi_823975","visid_incap_823975","incap_ses_198_2233503","nlbi_2233503","visid_incap_2233503","_dc_gtm_UA-28243511-20","Path","li_gc","incap_ses_867_2233503","incap_ses_867_823975","incap_ses_867_972453","incap_ses_1364_823975","incap_ses_1364_972453","NSC_QH-PMY","incap_ses_9117_2233503","incap_ses_9117_823975","incap_ses_9117_972453","incap_ses_340_2233503","incap_ses_340_823975","AnalyticsSyncHistory","muc_ads"]},"cookielist":{"necessary":{"id":587,"status":true,"priority":0,"title":"Necessary","strict":true,"default_state":false,"ccpa_optout":false,"loadonstart":false},"functional":{"id":588,"status":true,"priority":5,"title":"Functional","strict":false,"default_state":false,"ccpa_optout":false,"loadonstart":false},"performance":{"id":589,"status":true,"priority":4,"title":"Performance","strict":false,"default_state":false,"ccpa_optout":false,"loadonstart":false},"audience":{"id":590,"status":true,"priority":3,"title":"Audience Measurement","strict":false,"default_state":false,"ccpa_optout":false,"loadonstart":false},"advertisement":{"id":591,"status":true,"priority":2,"title":"Advertisement","strict":false,"default_state":false,"ccpa_optout":false,"loadonstart":false},"others":{"id":592,"status":true,"priority":1,"title":"Others","strict":false,"default_state":false,"ccpa_optout":false,"loadonstart":false}},"ajax_url":"https:\/\/www.sciencefriday.com\/wp-admin\/admin-ajax.php","current_lang":"en","security":"4061d9da70","eu_countries":["GB"],"geoIP":"disabled","use_custom_geolocation_api":"","custom_geolocation_api":"https:\/\/geoip.cookieyes.com\/geoip\/checker\/result.php","consentVersion":"1","strictlyEnabled":["necessary","obligatoire"],"cookieDomain":"","privacy_length":"250","ccpaEnabled":"1","ccpaRegionBased":"1","ccpaBarEnabled":"1","ccpaType":"ccpa_gdpr","triggerDomRefresh":"","secure_cookies":""};
+var log_object = {"ajax_url":"https:\/\/www.sciencefriday.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="cookie-law-info-ccpa-js-extra">
+/* <![CDATA[ */
+var ccpa_data = {"opt_out_prompt":"Do you really wish to opt out?","opt_out_confirm":"Confirm","opt_out_cancel":"Cancel"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="search-filter-plugin-build-js-extra">
+/* <![CDATA[ */
+var SF_LDATA = {"ajax_url":"https:\/\/www.sciencefriday.com\/wp-admin\/admin-ajax.php","home_url":"https:\/\/www.sciencefriday.com\/","extensions":[]};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.sciencefriday.com/_static/??-eJytUttOxCAQ/SEp2X3oxgfjt0xhaKdSqDN0a/16wdZ0NdpEY0IgmXOZM4CeR0XB+Mmi6D6v5wl52Y5qoFD1cqePSGqgliHhLdnEkDAkPfqppSAaenght6g5sh0ZRZRQwmLVkaSYO/1auCE/CXNJDEfvlcUxdXvqrbxV1zFvSkdTzNik6ByianOYDMcnwsKSd9bUeDKl0QZ4mPOtuahW5G+uYHMgPUQ7+Xz3xoygQQSTfNeowF/bpA6HrBRDGAw6JgtL0V4x2MjFGTnQKx8NLghsOuXIJ2Q1cvwYdo/ymdJM5O2RY4PgVIMuMioIVoErsha8Lx9rt90eCHPaVA3xiv9kmOYsXtY9Wz4OD6fL+XR/rutL3b8BGkAqZw==" ></script><link rel="https://api.w.org/" href="https://www.sciencefriday.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.sciencefriday.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.6.1" />
+<meta name="generator" content="Seriously Simple Podcasting 3.3.1" />
+<link rel='shortlink' href='https://www.sciencefriday.com/?p=67148' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.sciencefriday.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.sciencefriday.com%2Fsegments%2Fdefinition-of-life-legislation%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.sciencefriday.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.sciencefriday.com%2Fsegments%2Fdefinition-of-life-legislation%2F&#038;format=xml" />
+
+<link rel="alternate" type="application/rss+xml" title="Podcast RSS feed" href="https://www.sciencefriday.com/feed/podcast" />
+
+<script>
+	jQuery( document ).ready(function(){
+		jQuery.scrollDepth({
+			elements: [''],
+			percentage: true,
+			userTiming: true,
+			pixelDepth: false,
+			nonInteraction: false,
+			gtmOverride: false,
+	});
+});
+</script>
+	<style>img#wpstats{display:none}</style>
+		<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"NewsArticle","headline":"Why Is It So Hard To Agree On When Human Life Starts?","url":"http:\/\/www.sciencefriday.com\/segments\/definition-of-life-legislation\/","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/www.sciencefriday.com\/segments\/definition-of-life-legislation\/"},"thumbnailUrl":"https:\/\/www.sciencefriday.com\/wp-content\/uploads\/2022\/09\/KHN-Life-and-Death.jpeg?w=150&h=150&crop=1","image":{"@type":"ImageObject","url":"https:\/\/www.sciencefriday.com\/wp-content\/uploads\/2022\/09\/KHN-Life-and-Death.jpeg"},"articleSection":"Uncategorized","author":[{"@type":"Person","name":"D. Peterschmidt"}],"creator":["D. Peterschmidt"],"publisher":{"@type":"Organization","name":"Science Friday","logo":""},"keywords":[],"dateCreated":"2022-09-02T04:00:39Z","datePublished":"2022-09-02T04:00:39Z","dateModified":"2022-09-06T15:13:58Z"}</script>
+<!-- Meta Pixel Code -->
+<script type='text/javascript'>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js?v=next');
+</script>
+<!-- End Meta Pixel Code -->
+
+      <script type='text/javascript'>
+        var url = window.location.origin + '?ob=open-bridge';
+        fbq('set', 'openbridge', '1453812254789467', url);
+      </script>
+    <script type='text/javascript'>fbq('init', '1453812254789467', {}, {
+    "agent": "wordpress-6.6.1-3.0.16"
+})</script><script type='text/javascript'>
+    fbq('track', 'PageView', []);
+  </script>
+<!-- Meta Pixel Code -->
+<noscript>
+<img height="1" width="1" style="display:none" alt="fbpx"
+src="https://www.facebook.com/tr?id=1453812254789467&ev=PageView&noscript=1" />
+</noscript>
+<!-- End Meta Pixel Code -->
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+	<!--[if lt IE 10]>
+		<link type="text/css" rel="stylesheet" href="https://www.sciencefriday.com/wp-content/themes/sciencefriday/css/ie.css" media="all" />
+	<![endif]-->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-86VTGWDPR3"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-86VTGWDPR3');
+	</script>
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-M89JXQH');</script>
+	<!-- End Google Tag Manager -->
+
+	<script type='text/javascript'>
+		var googletag = googletag || {};
+		googletag.cmd = googletag.cmd || [];
+		(function() {
+		var gads = document.createElement('script');
+		gads.async = true;
+		gads.type = 'text/javascript';
+		var useSSL = 'https:' == document.location.protocol;
+		gads.src = (useSSL ? 'https:' : 'http:') + 
+		'//www.googletagservices.com/tag/js/gpt.js';
+		var node = document.getElementsByTagName('script')[0];
+		node.parentNode.insertBefore(gads, node);
+		})();
+	</script>
+
+	<!-- Facebook Domain Verification -->
+	<meta name="facebook-domain-verification" content="5iznbqpuetsdttvleflp2ictpont6w" />
+
+
+</head>
+<body class="segment-template-default single single-segment postid-67148">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M89JXQH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<div id="skip">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+</div>
+
+
+    <div id="jp_container_N" class="jp-video jp-video-270p" role="application" aria-label="media player">
+        <div class="jp-type-playlist">
+            <div id="jquery_jplayer_N" class="jp-jplayer"></div>
+            <div class="jp-gui">
+                <div class="jp-interface">
+                    <a class="small-logo icon-small-logo" href="https://www.sciencefriday.com/" role="button" tabindex="0"><span class="screen-reader-text">Science Friday</span></a>
+                    <div class="jp-progress">
+                        <div class="jp-seek-bar">
+                            <div class="jp-play-bar"></div>
+                        </div>
+                        <div class="jp-play play-btn" role="button" tabindex="0"><span class="screen-reader-text">play</span></div>
+                        <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+                        <div class="title-contain">
+                            <div class="jp-title" aria-label="title">&nbsp;</div>
+                        </div>
+                                                                                                                    <div class="btn-contain">
+                                    <a href="https://www.sciencefriday.com/episodes/august-16-2024/" class="btn border white" role="button" tabindex="0"><span>Latest Episode</span><i></i></a>
+                                </div>
+                                                                                                    </div>
+
+                </div>
+            </div>
+            <div class="jp-playlist">
+                <ul>
+                    <!-- The method Playlist.displayPlaylist() uses this unordered list -->
+                    <li></li>
+                </ul>
+            </div>
+            <!-- <div class="jp-no-solution">
+                <span>Update Required</span>
+                To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+            </div> -->
+        </div>
+    </div>
+
+<div id="page">
+	<header id="masthead" class="site-header" role="banner">
+		<span class="page-overlay"></span>
+		<div class="l-container-lg">
+			<div class="site-logo">
+									<div class="h1"><a href="https://www.sciencefriday.com/" rel="home">Science Friday</a></div>
+								</div>
+
+								<a href="https://www.sciencefriday.com/segments/definition-of-life-legislation/" class="ico-new-episode" title="Latest Episode" role="button" tabindex="0"></a>
+					
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+				<div class="menui top-menu"></div>
+				<div class="menui mid-menu"></div>
+				<div class="menui bottom-menu"></div>
+			</button>
+
+			<span class="mobile-nav-bg"></span>
+
+			<nav id="site-navigation" class="main-navigation navigations">
+				<div class="menu-container">
+					<p id="main-menu" class="screen-reader-text">Main Menu</p>
+					<ul id="menu-main" class="menu menu-main menu-ajax" aria-labelledby="main-menu"><li id="menu-item-1124" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children first menu-item-1124"><a href="https://www.sciencefriday.com/radio/">Audio</a>
+<ul class="sub-menu">
+	<li id="menu-item-75433" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75433"><a href="https://www.sciencefriday.com/radio/">Radio</a></li>
+	<li id="menu-item-75434" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75434"><a href="https://www.sciencefriday.com/science-friday-podcasts/">Podcasts</a></li>
+	<li id="menu-item-75435" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-75435"><a href="https://www.sciencefriday.com/spotlights/state-of-science/">State of Science</a></li>
+</ul>
+</li>
+<li id="menu-item-75451" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-75451"><a href="https://www.sciencefriday.com/stories">Articles</a>
+<ul class="sub-menu">
+	<li id="menu-item-75436" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-75436"><a href="https://www.sciencefriday.com/articles/">All Articles</a></li>
+	<li id="menu-item-75437" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-75437"><a href="https://www.sciencefriday.com/series/policy/">Science Policy</a></li>
+	<li id="menu-item-75438" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-75438"><a href="https://www.sciencefriday.com/series/astronomy-made-in-latin-america/">Astronomy: Made in Latin America</a></li>
+	<li id="menu-item-75439" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75439"><a href="https://www.sciencefriday.com/newsletters/">Newsletters</a></li>
+</ul>
+</li>
+<li id="menu-item-1158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1158"><a href="https://www.sciencefriday.com/educate/">Educate</a>
+<ul class="sub-menu">
+	<li id="menu-item-75440" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75440"><a href="https://www.sciencefriday.com/educate/">All Educational Resources</a></li>
+	<li id="menu-item-75441" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-75441"><a href="https://www.sciencefriday.com/articles/hack-your-brain/">Hack Your Brain</a></li>
+	<li id="menu-item-75442" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-75442"><a href="https://www.sciencefriday.com/articles/sun-stem-camp/">Sun Camp</a></li>
+	<li id="menu-item-75443" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-75443"><a href="https://www.sciencefriday.com/articles/ai-for-stem-education/">AI For STEM Education</a></li>
+</ul>
+</li>
+<li id="menu-item-75450" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-75450"><a href="https://www.sciencefriday.com/events/">Community</a>
+<ul class="sub-menu">
+	<li id="menu-item-75444" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75444"><a href="https://www.sciencefriday.com/scifri-book-club/">SciFri Book Club</a></li>
+	<li id="menu-item-1108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1108"><a href="https://www.sciencefriday.com/events/">Events</a></li>
+	<li id="menu-item-75445" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-75445"><a href="https://www.sciencefriday.com/spotlights/cephalopod-week/">Cephalopod Week</a></li>
+</ul>
+</li>
+<li id="menu-item-75446" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-75446"><a href="https://www.sciencefriday.com/about/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-75452" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75452"><a href="https://www.sciencefriday.com/about/">About Science Friday</a></li>
+	<li id="menu-item-75448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75448"><a href="https://www.sciencefriday.com/about/staff-board/">Staff &#038; Board</a></li>
+	<li id="menu-item-75643" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-75643"><a href="https://www.sciencefriday.com/about/careers/">Careers</a></li>
+	<li id="menu-item-75449" class="menu-item menu-item-type-post_type menu-item-object-page last menu-item-75449"><a href="https://www.sciencefriday.com/about/contact-us/">Contact Us</a></li>
+</ul>
+</li>
+</ul>
+					<p id="utility-menu" class="screen-reader-text">Utility Menu</p>
+					<ul id="menu-utility" class="menu menu-utility menu-ajax" aria-labelledby="utility-menu"><li id="menu-item-75095" class="menu-item menu-item-type-custom menu-item-object-custom first menu-item-75095"><a href="https://www.sciencefriday.com/spotlights/science-friday-en-espanol/">En Español</a></li>
+<li id="menu-item-39373" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39373"><a href="https://www.sciencefriday.com/shop/">Shop</a></li>
+<li id="menu-item-61904" class="menu-item menu-item-type-post_type menu-item-object-page last menu-item-61904"><a href="https://www.sciencefriday.com/donate/">Donate</a></li>
+</ul>				</div>
+				<form role="search" method="get" id="search-form" class="search-form sb-search" action="https://www.sciencefriday.com/" >
+		<label class="screen-reader-text" for="s">Search for:</label>
+		<input type="search" id="search-terms" class="sb-search-input form-text" placeholder="Enter your keyword..." value="" name="s" id="s" />
+		<div class="form-action">
+			<input type="submit" id="search-submit" class="sb-search-submit" value="Search" />
+			<span class="sb-icon-search"></span>
+		</div>
+	</form>			</nav><!-- #site-navigation -->
+
+		</div>
+	</header><!-- #masthead -->
+
+	<div id="content" class="site-content">
+
+			
+		
+		<section class="co-banner related-spotlight bg-black bg-fixed-img bg-pattern-science color-spotlight">
+
+
+			<div class="banner-content l-container-lg l-row-xsm">	
+				<p class="banner-desc">This segment is part of the <strong class="title-serif spot-title">Reproductive Health</strong> spotlight</p>
+				<a href="https://www.sciencefriday.com/spotlights/reproductive-health/" class="btn border white" title="Reproductive Health"><span>View Spotlight</span><i></i></a>
+			</div>
+		</section>
+		<div id="primary" class="content-area" role="main">
+	<ul class="share-post"><li class="item"><a href="http://www.facebook.com/sharer.php?u=https://www.sciencefriday.com/segments/definition-of-life-legislation/" title="Facebook" class="facebook no-ajaxy" target="_blank">Facebook</a></li><li class="item"><a href="https://www.threads.net/intent/post?text=https://www.sciencefriday.com/segments/definition-of-life-legislation/" title="Threads" class="threads no-ajaxy" target="_blank"><p class="sr-only">Threads</p></a></li><li class="item"><a href="http://twitter.com/share?url=https://www.sciencefriday.com/segments/definition-of-life-legislation/&amp;text=Why Is It So Hard To Agree On When Human Life Starts?" title="Twitter" class="twitter no-ajaxy" target="_blank"><p class="sr-only">X</p></a></li><li class="item"><a href="https://bsky.app/intent/compose?text=Why Is It So Hard To Agree On When Human Life Starts?%20https://www.sciencefriday.com/segments/definition-of-life-legislation/" title="Bluesky" class="bluesky no-ajaxy" target="_blank"><p class="sr-only">Bluesky</p></a></li><li class="item"><a href="http://www.linkedin.com/share/link?url=https://www.sciencefriday.com/segments/definition-of-life-legislation/&amp;name=Why Is It So Hard To Agree On When Human Life Starts?" title="LinkedIn" class="linkedin no-ajaxy" target="_blank"><p class="sr-only">LinkedIn</p></a></li><li class="item"><a href="mailto:?Subject=Why Is It So Hard To Agree On When Human Life Starts?&amp;Body=%20https://www.sciencefriday.com/segments/definition-of-life-legislation/" title="Email" class="email no-ajaxy" target="_blank">Email</a></li></ul><article id="post-67148" class="post-67148 segment type-segment status-publish has-post-thumbnail hentry series-podcast-segment series_tag-partner-stories">
+	<header class="entry-header single bg-lightgrey">
+		<div class="entry-content l-container reveal-ani fadeInUp">
+			
+<a href="https://www.sciencefriday.com/segments/" class="badge color-segment" title="Segment">
+<div class="badge-icon"><span class="icon icon-segment icon-white"></span></div>
+	</a>
+
+																					09/02/2022												
+			<h1 class="entry-title">Why Is It So Hard To Agree On When Human Life Starts?</h1>
+							<p class="run-time">12:13 minutes</p>
+			
+							<a href="https://s3.amazonaws.com/scifri-segments/scifri202209025.mp3" title="Why Is It So Hard To Agree On When Human Life Starts?" class="playlistitem btn round red u-noMargin no-ajaxy"><span></span><i></i></a>
+			
+							<ul class="listen-links">
+											<li><a href="#segment-transcript" class="btn external more segment-transcript" title="Read Transcript">Read Transcript</a></li>
+																										<li><a href="https://soundcloud.com/scifri/why-doesnt-science-have-an-answer-to-the-question-of-when-human-life-begins/s-93UUZIsXucS?si=695f091ee95d4467b7ebec8e959b8330&#038;utm_source=clipboard&#038;utm_medium=text&#038;utm_campaign=social_sharing" class="btn external" title="Listen on SoundCloud" target="_blank">Listen on SoundCloud</a></li>
+																													<li><a href="https://www.sciencefriday.com/episodes/september-2-2022/" class="btn external more" title="More from this episode">More from this episode</a></li>
+																</ul>
+					</div>
+	</header><!-- .entry-header -->
+
+	<div class="entry-content style-body l-container l-row">
+
+		
+		<div class="entry-body">
+			<p><a href="https://khn.org/" target="_blank" rel="noopener"><img fetchpriority="high" decoding="async" class="size-full wp-image-63059 alignleft" style="width: 25%;" src="https://www.sciencefriday.com/wp-content/uploads/2021/08/MailchimpBanners-04.jpg" alt="an orange button that has two logos, one in white that reads &quot;scifri&quot; and a blue square with white font that reads &quot;khn&quot;" width="2400" height="1036" srcset="https://www.sciencefriday.com/wp-content/uploads/2021/08/MailchimpBanners-04.jpg 5000w, https://www.sciencefriday.com/wp-content/uploads/2021/08/MailchimpBanners-04.jpg?resize=300,129 300w, https://www.sciencefriday.com/wp-content/uploads/2021/08/MailchimpBanners-04.jpg?resize=768,331 768w, https://www.sciencefriday.com/wp-content/uploads/2021/08/MailchimpBanners-04.jpg?resize=1024,442 1024w, https://www.sciencefriday.com/wp-content/uploads/2021/08/MailchimpBanners-04.jpg?resize=1536,663 1536w, https://www.sciencefriday.com/wp-content/uploads/2021/08/MailchimpBanners-04.jpg?resize=2048,884 2048w, https://www.sciencefriday.com/wp-content/uploads/2021/08/MailchimpBanners-04.jpg?resize=400,173 400w, https://www.sciencefriday.com/wp-content/uploads/2021/08/MailchimpBanners-04.jpg?resize=1200,518 1200w, https://www.sciencefriday.com/wp-content/uploads/2021/08/MailchimpBanners-04.jpg?resize=2000,863 2000w" sizes="(max-width: 2400px) 100vw, 2400px" /></a><i></i></p>
+<p><i>This story is a collaboration between Science Friday and <a href="https://khn.org/" target="_blank" rel="noopener">KHN</a>. It was written by Sarah Varney.</i></p>
+<hr />
+<figure id="attachment_67180"  class="wp-caption aligncenter"><img decoding="async" class="size-full wp-image-67180" src="https://www.sciencefriday.com/wp-content/uploads/2022/09/KHN-Life-and-Death.jpeg" alt="A digital illustration shows a motion - blurred hourglass in stark black and white surrounded by a hand painted border of black and white brush strokes" width="1400" height="933" srcset="https://www.sciencefriday.com/wp-content/uploads/2022/09/KHN-Life-and-Death.jpeg 1400w, https://www.sciencefriday.com/wp-content/uploads/2022/09/KHN-Life-and-Death.jpeg?resize=300,200 300w, https://www.sciencefriday.com/wp-content/uploads/2022/09/KHN-Life-and-Death.jpeg?resize=768,512 768w, https://www.sciencefriday.com/wp-content/uploads/2022/09/KHN-Life-and-Death.jpeg?resize=1024,682 1024w, https://www.sciencefriday.com/wp-content/uploads/2022/09/KHN-Life-and-Death.jpeg?resize=400,267 400w, https://www.sciencefriday.com/wp-content/uploads/2022/09/KHN-Life-and-Death.jpeg?resize=1200,800 1200w" sizes="(max-width: 1400px) 100vw, 1400px" /><figcaption class="wp-caption-text">Credit: Eric Harkleroad, KHN illustration; Getty Images; Unsplash.</figcaption></figure>
+<p><span style="font-weight: 400;">As life-preserving medical technology advanced in the second half of the 21st century, doctors and families were faced with a thorny decision, one with weighty legal and moral implications: How should we define when life ends? Cardiopulmonary bypass machines could keep the blood pumping and ventilators could maintain breathing long after a patient’s natural ability to perform those vital functions had ceased.</span></p>
+<p><span style="font-weight: 400;">After decades of deliberations involving physicians, bioethicists, attorneys, and theologians, a U.S. presidential commission in 1981 settled on a scientifically derived dividing line between life and death that has endured, more or less, ever since: A person was considered dead when the entire brain—including the brainstem, its most primitive portion—was no longer functioning, even if other vital functions could be maintained indefinitely through artificial life support.</span></p>
+<p><span style="font-weight: 400;">In the decades since, the committee’s criteria have served as a foundation for laws in most states adopting brain death as a standard for legal death.</span></p>
+<p><span style="font-weight: 400;">Now, with the overturning of </span><i><span style="font-weight: 400;">Roe v. Wade</span></i><span style="font-weight: 400;"> and dozens of states rushing to impose abortion restrictions, American society is engaged in a chaotic race to define the other pole of human existence: When exactly does human life begin? At conception, the hint of a heartbeat, a first breath, the ability to survive outside the womb with the help of the latest technology?</span></p>
+<p><span style="font-weight: 400;">That we’ve been able to devise and apply uniform clinical standards for when life ends, but not when it begins, is due largely to the legal and political maelstrom around abortion. And in the two months since the U.S. Supreme Court issued its opinion in </span><i><span style="font-weight: 400;">Dobbs v. Jackson Women’s Health Organization</span></i><span style="font-weight: 400;">, eliminating a long-standing federal right to abortion, state legislators are eagerly bounding into that void, looking to codify into law assorted definitions of life that carry profound repercussions for abortion rights, birth control, and assisted reproduction, as well as civil and criminal law.</span></p>
+<p><span style="font-weight: 400;">“The court said that when life begins is up to whoever is running your state — whether they are wrong or not, or you agree with them or not,” said Mary Ziegler, a law professor at the University of California-Davis who has written several books on the history of abortion.</span></p>
+<p><span style="font-weight: 400;">Unlike the debate over death, which delved into exquisite medical and scientific detail, the legislative scramble to determine when life’s building blocks reach a threshold that warrants government protection as human life has generally ignored the input of mainstream medical professionals.</span></p>
+<p><span style="font-weight: 400;">Instead, red states across much of the South and portions of the Midwest are adopting language drafted by elected officials that is informed by conservative Christian doctrine, often with little scientific underpinning.</span></p>
+<p><span style="font-weight: 400;">A handful of Republican-led states, including Arkansas, Kentucky, Missouri, and Oklahoma, have passed laws declaring that life begins at fertilization, a contention that opens the door to a host of pregnancy-related litigation. This includes wrongful death lawsuits brought on behalf of the estate of an embryo by disgruntled ex-partners against physicians and women who end a pregnancy or even miscarry. (One such </span><a href="https://www.propublica.org/article/arizona-abortion-father-lawsuit-wrongful-death"><span style="font-weight: 400;">lawsuit is underway</span></a><span style="font-weight: 400;"> in Arizona. Another reached the Alabama Supreme Court.)</span></p>
+<p><span style="font-weight: 400;">In Kentucky, the law outlawing abortion uses morally explosive terms to define pregnancy as “the human female reproductive condition of having a living unborn human being within her body throughout the entire embryonic and fetal stages of the unborn child from fertilization to full gestation and childbirth.”</span></p>
+<p><span style="font-weight: 400;">Several other states, including Georgia, have adopted measures equating life with the point at which an embryo’s nascent cardiac activity can be detected by an ultrasound, at around six weeks of gestation. Many such laws mischaracterize the flickering electrical impulses detectible at that stage as a heartbeat, including in Georgia, whose Department of Revenue recently announced that “any unborn child with a detectable human heartbeat” can be claimed as a dependent.</span></p>
+<p><span style="font-weight: 400;">The Supreme Court’s 1973 decision in </span><i><span style="font-weight: 400;">Roe v. Wade</span></i><span style="font-weight: 400;"> that established a constitutional right to abortion did not define a moment when life begins. The opinion, written by Justice Harry Blackmun, observed that the Constitution does not provide a definition of “person,” though it extends protections to those born or naturalized in the U.S. The court majority made note of the many disparate views among religions and scientists on when life begins, and concluded it was not up to the states to adopt one theory of life.</span></p>
+<p><span style="font-weight: 400;">Instead, </span><i><span style="font-weight: 400;">Roe</span></i> <a href="https://supreme.findlaw.com/supreme-court-insights/roe-v--wade-case-summary--what-you-need-to-know.html"><span style="font-weight: 400;">created a framework</span></a><span style="font-weight: 400;"> intended to balance a pregnant woman’s right to make decisions about her body with a public interest in protecting potential human life. That decision and a key ruling that followed generally recognized a woman’s right to abortion up to the point medical professionals judge a fetus viable to survive outside the uterus, at about 24 weeks of gestation.</span></p>
+<p><span style="font-weight: 400;">In decisively overturning </span><i><span style="font-weight: 400;">Roe</span></i><span style="font-weight: 400;"> in June, the Supreme Court’s conservative majority drew on legal arguments that have shaped another contentious end-of-life issue. The legal standard employed in </span><i><span style="font-weight: 400;">Dobbs</span></i><span style="font-weight: 400;"> — that there is no right to abortion in the federal Constitution and that states can decide on their own — is the same rationale used in 1997 when the Supreme Court said terminally ill people did not have a constitutional right to medically assisted death. That decision, </span><i><span style="font-weight: 400;">Washington v. Glucksberg</span></i><span style="font-weight: 400;">, is mentioned 15 times in the majority opinion for </span><i><span style="font-weight: 400;">Dobbs</span></i><span style="font-weight: 400;"> and a concurrence by Justice Clarence Thomas.</span></p>
+<p><span style="font-weight: 400;">Often, the same groups that have led the fight to outlaw abortion have also challenged medical aid-in-dying laws. Even after </span><i><span style="font-weight: 400;">Dobbs</span></i><span style="font-weight: 400;">, so-called right-to-die laws remain far less common than those codifying state abortion rights. Ten states allow physicians to prescribe lethal doses of medicine for terminally ill patients. Doctors are still prohibited from administering the drugs.</span></p>
+<p><span style="font-weight: 400;">James Bopp, general counsel for the National Right to Life Committee who has been central to the efforts to outlaw abortion, said that both abortion and medically assisted death, which he refers to as physician-assisted suicide, endanger society.</span></p>
+<p><span style="font-weight: 400;">“Every individual human life has inherent value and is sacred,” said Bopp. “The government has the duty to protect that life.”</span></p>
+<p><span style="font-weight: 400;">Both issues raise profound societal questions: Can the government keep a patient on life support against his wishes, or force a woman to give birth? Can states bar their own residents from going to other states to end a pregnancy, or prohibit out-of-state patients from coming in to seek medically assisted death? And who gets to decide, particularly if the answer imposes a singular religious viewpoint?</span></p>
+<p><span style="font-weight: 400;">Just as there are legal implications that flow from determining a person’s death, from organ donation to inheritance, the implied rights held by a legally recognized zygote are potentially vast. Will death certificates be issued for every lost pregnancy? Will miscarriages be investigated? When will Social Security numbers be issued? How will census counts be tallied and congressional districts drawn?</span></p>
+<p><span style="font-weight: 400;">Medical professionals and bioethicists caution that both the beginning and end of life are complicated biological processes that are not defined by a single identifiable moment — and are ill suited to the political arena.</span></p>
+<p><span style="font-weight: 400;">“Unfortunately, biological occurrences are not events, they are processes,” said David Magnus, director of the Stanford Center for Biomedical Ethics.</span></p>
+<p><span style="font-weight: 400;">Moreover, asking doctors “What is life?” or “What is death?” may miss the point, said Magnus: “Medicine can answer the question ‘When does a biological organism cease to exist?’ But they can’t answer the question ‘When does a person begin or end?’ because those are metaphysical issues.”</span></p>
+<p><span style="font-weight: 400;">Ben Sarbey, a doctoral candidate in Duke University’s department of philosophy who studies medical ethics, echoed that perspective, recounting the Paradox of the Heap, a thought experiment that involves placing grains of sand one on top of the next. The philosophical quandary is this: At what point do those grains of sand become something more — a heap?</span></p>
+<p><span style="font-weight: 400;">“We&#8217;re going to have a rough time placing a dividing line that this counts as a person and this does not count as a person,” he said. “Many things count as life — a sperm counts as life, a person in a persistent vegetative state counts as life — but does that constitute a person that we should be protecting?”</span></p>
+<p><span style="font-weight: 400;">Even as debate over the court’s abortion decision percolates, the 1981 federal statute that grew out of the presidential committee’s findings, the Uniform Determination of Death Act, is also under review. This year, the Uniform Law Commission, a nonpartisan group of legal experts that drafts laws intended for adoption in multiple states, has taken up the work to revisit the definition of death.</span></p>
+<p><span style="font-weight: 400;">The group will consider sharpening the medical standards for brain death in light of advances in the understanding of brain function. And they will look to address lingering questions raised in recent years as families and religious groups have waged heated legal battles over terminating artificial life support for patients with no brain wave activity.</span></p>
+<p><span style="font-weight: 400;">Bopp, with the National Right to Life Committee, is among those serving on advisory panels for the effort, along with an array of doctors, philosophers, and medical ethicists. The concept of “personhood” that infuses the anti-abortion movement’s broader push for fetal rights is expected to be an underlying topic, albeit in mirror image: When does a life form cease being a person?</span></p>
+<p><span style="font-weight: 400;">Magnus, who is also serving on an advisory panel, has no doubt the commission will reach a consensus, a sober resolution rooted in science. What’s less clear, he said, is whether in today’s political environment that updated definition will hold the same sway, an enduring legal standard embraced across states.</span></p>
+<p><a href="https://khn.org/about-us"><i><span style="font-weight: 400;">KHN</span></i></a><i><span style="font-weight: 400;"> (Kaiser Health News) is a national newsroom that produces in-depth journalism about health issues. Together with Policy Analysis and Polling, KHN is one of the three major operating programs at </span></i><a href="https://www.kff.org/about-us/"><i><span style="font-weight: 400;">KFF</span></i></a><i><span style="font-weight: 400;"> (Kaiser Family Foundation). KFF is an endowed nonprofit organization providing information on health issues to the nation.</span></i></p>
+<hr />
+
+<div class="cb-donate">
+	<h2>Donate To Science Friday</h2>
+	<p>Invest in quality science journalism by making a donation to Science Friday.</p>
+	<p>
+		<a class="btn border no-ajaxy" href="https://www.sciencefriday.com/donate-form/" target="_blank" rel="noopener">Donate</a>
+	</p>
+</div>
+
+		</div>
+
+		
+					<div class="l-row-txt">
+			<h2 class="section-head">Segment Guests</h2>
+									<div class="l-row-item l-fauxTable">
+						<div class="col-twoThirds col-left">
+							<div class="guest-title">Sarah Varney</div>
+															<div class="desc">
+								<p>Sarah Varney is a senior correspondent at Kaiser Health News in Monterey, Massachusetts.</p>
+								</div>
+													</div>
+						<div class="col-third col-right">
+							<a href="https://www.sciencefriday.com/person/sarah-varney/" title="More From Guest" class="btn border" target="_blank"><span>More From Guest</span><i></i></a>
+						</div>
+					</div>
+											</div>
+		
+		
+
+					<div class="accordions l-row-txt">
+				<div class="accordion-row">
+					
+					<div id="segment-transcript" class="toggle-title">
+						<h2 class="section-head">Segment Transcript <span class="toggle-arrow"></span></h2>
+					</div>
+					<div  class="toggle-content segment-transcript">
+						<p>IRA FLATOW: This is Science Friday. I&#8217;m Ira Flatow. Just over 40 years ago, medical professionals came up with a way to define what it means for a person to die, what defines human death. Advances in medicine have made it possible to keep people alive in ways that&#8211; well, they were never possible in the past. So hospitals and doctors around the country adopted a set of standards which constitute what&#8217;s called brain death. And those same standards were codified into laws in nearly every state.</p>
+<p>But there&#8217;s no such medical consensus for another big question&#8211; when does human life begin? And with the overturn of Roe v. Wade, the answer to that question has big implications. As part of our continuing coverage of the science behind reproductive health, meet Sarah Varney, senior correspondent for Kaiser Health News, who also focuses on reproductive health. She&#8217;s based in Monterey, Massachusetts. Sarah, welcome to Science Friday.</p>
+<p>SARAH VARNEY: Thanks, Ira.</p>
+<p>IRA FLATOW: Nice to have you. OK, let&#8217;s start off. Can you take me through perhaps a brief history of how our definition of death has shifted as medicine has advanced?</p>
+<p>SARAH VARNEY: So really until the 1950s, physicians in the United States and really around the world would do what you might think. They would feel for a pulse or listen for breathing. They might even hold a mirror up to a patient&#8217;s nose to look for condensation. Then, by the 1950s or so, scientists had developed these mechanical ventilators, and they could really keep people, even with catastrophic brain injuries, alive almost indefinitely. So there was this big question about whether patients would even want to stay alive under these conditions. And even in the most existential sense, this sort of raised this question of what it meant to be a human being.</p>
+<p>And then in 1967, there was this South African surgeon who performed the first heart transplant. And that ushered in a whole new era of organ transplantation. And these questions about whether some of these patients were truly dead enough to donate their organs took on a greater urgency.</p>
+<p>And then, in the late 1960s, there were a number of groups around the world that were starting to weigh these questions. That included, also, this ad hoc committee at Harvard Medical School. And it was a committee that was made up of doctors, a bioethicist, a lawyer, a theologian, and the central question that they were trying to answer was, if someone is seemingly irreversibly unconscious, are they dead?</p>
+<p>So in 1968, this committee developed what became known as the criteria for determining what was essentially a new way to die. And it was called an irreversible coma, what you referred to as brain death. And these are patients who were unresponsive. They showed no movement or reflexes. And there was a test that registered their electrical activity in the brain, called an electroencephalogram. And that test would show that their electrical activity in their brain was essentially flat.</p>
+<p>IRA FLATOW: So was this codified, then, as to what death was, this brain death?</p>
+<p>SARAH VARNEY: So by 1981, there was this presidential commission established. What they wanted was a uniform definition of brain death across all the states. And they decided that the entire brain&#8211; so that included the brain stem&#8211; basically irreversibly ceased to work. So the person, at that point, could be declared brain dead.</p>
+<p>IRA FLATOW: And so the committee reached this conclusion after it had studied it intensely with medical professionals and experts, right?</p>
+<p>SARAH VARNEY: That&#8217;s right. I mean, they had neuroscientists. They had bioethicists. And they spent months and months and months and months debating this and essentially came to a medical definition of what it meant to be brain dead.</p>
+<p>IRA FLATOW: And even with the uniform definition of brain death, there have been cases, high-profile legal fights over brain-dead patients, that challenge this notion of brain death. And it&#8217;s all been based on religious or moral and ethical grounds. Talk about the case&#8211; this one case is the story of a 13-year-old girl named Jahi McMath.</p>
+<p>SARAH VARNEY: So she suffered an irreversible brain damage after a complex tonsil surgery. And she was declared deceased in California. Now, McMath&#8217;s family, with the financial support from pro-life groups at the time, moved the girl&#8217;s body to New Jersey. Now, New Jersey is a state that&#8211; it differs from these other states around the country in that it allows families to contest a declaration of brain death. So when McMath&#8217;s body was moved to New Jersey, she became legally alive again.</p>
+<p>IRA FLATOW: Really?</p>
+<p>SARAH VARNEY: She had no detectable brain activity for nearly five years. And during that time&#8211; here&#8217;s what&#8217;s so fascinating, Ira&#8211; is she actually went through puberty and started menstruating. And she did eventually die in 2018.</p>
+<p>IRA FLATOW: Wow. So how might this case help us better understand how hard it is to draw the line when someone has died?</p>
+<p>SARAH VARNEY: So the case of McMath is really fascinating. And part of the reason she was able to go through menstruation is because of the hypothalamus. And the hypothalamus, while it sits in the brain, it really wasn&#8217;t something that was covered by this total brain death standard. So about half of all brain-dead adult patients, their hypothalamus can actually be stimulated, and you can get a response. And so now, actually, there is this committee that is meeting once again to refine this definition of brain death. And one of the things that they are considering is, how do we treat the hypothalamus when we&#8217;re declaring somebody brain dead?</p>
+<p>IRA FLATOW: Right. Wouldn&#8217;t you agree that, despite some of the nuances we just talked about, that there is widespread medical agreement on what constitutes death? And we are now having trouble with the beginning of human life, so much more complicated. Why is that so much more complicated to reach consensus on?</p>
+<p>SARAH VARNEY: There has not been the same effort to really define what constitutes the beginning of life. I mean, in some extent, this is because there&#8217;s a real religious belief based on when life begins. And really, perhaps medicine and science is not necessarily the best place to turn to even ask that question.</p>
+<p>So I spoke with David Magnus. He&#8217;s on this committee that is determining and refining the notion of brain death. He&#8217;s a bioethicist and the director of the Stanford Center for Biomedical Ethics. And let&#8217;s take a listen to what he said about how you define when life begins and even when life ends.</p>
+<p>DAVID MAGNUS: Biological occurrences are processes, not events. It means that deciding where you want to draw lines is a decision to be made, not something to be discovered. And so we have to decide where lines make the most sense.</p>
+<p>SARAH VARNEY: So what Magnus is essentially saying is that death and even conception are not moments in time. And it&#8217;s a complicated process.</p>
+<p>DAVID MAGNUS: When people talk about beginning at the time of conception, do they mean when the sperm first comes in contact with the zona pellucida of the egg cell? Is it when that actual nucleic material, that DNA, actually starts to play a role, which isn&#8217;t till a few cell divisions in? Somewhere in that process, we call that conception.</p>
+<p>SARAH VARNEY: Magnus and some of the other bioethicists that I spoke to in reporting the story would say that biology really suggests that conception is just too early in the process to even consider that someone, that a life, is a person. Let&#8217;s hear David Magnus again.</p>
+<p>DAVID MAGNUS: The fact that so many very early embryos are lost without women even knowing they&#8217;re pregnant is informative and is relevant to figuring out where to draw the line.</p>
+<p>SARAH VARNEY: And Magnus really says asking doctors what is life or what is death may actually just miss the point that medicine can&#8217;t really answer that question, when does a person begin or end, because those are really metaphysical issues. And this gets really interesting.</p>
+<p>There are people who study medical ethics, including Ben Sarbey&#8211; he&#8217;s a doctoral candidate at Duke University&#8217;s department of philosophy. And when I was speaking with him, he offered me this example called the paradox of the heap. And it&#8217;s essentially a thought experiment where a person places grains of sand one after another. And the philosophical quandary is this&#8211; when does that collection of sand become more than itself, a pile? This is a direct parallel to the debate over abortion and also the right to die.</p>
+<p>So Sarbey would say that many things count as life. A sperm counts as life. A person in a persistent vegetative state counts as life. But does that constitute a person that the government should be protecting?</p>
+<p>IRA FLATOW: Yeah, when Justice Alito wrote the majority decision overturning Roe in June, he did not incorporate the advice of medical professionals like you&#8217;re talking about. And unlike the original Roe decision, which weighed medical guidance, it&#8217;s now up to the states to determine when human life begins. So what kinds of laws have states passed as a result?</p>
+<p>SARAH VARNEY: There are a number of Republican-led states, including Missouri, Kentucky, Arkansas, Oklahoma, and others, that have laws that have declared that life begins at fertilization, so this moment of conception that Magnus says is actually elusive. And those laws have really profound legal implications. So there can be wrongful death lawsuits on behalf of the estate of the embryo or fetus by a disgruntled ex-partner or family against physicians and women who even end a pregnancy or even miscarry.</p>
+<p>In Kentucky, for example, the law outlawing abortion uses medically inaccurate and really morally potent terms to define pregnancy as, quote, &#8220;the human female reproductive condition of having a living unborn human being within her body, throughout the entire embryonic and fetal stages of the unborn child.&#8221; Now, in that sentence, there are many inaccurate terms, &#8220;a living unborn human being,&#8221; for instance.</p>
+<p>Now, several other states, including Georgia, they&#8217;ve adopted measures that equate life with the point at which an embryo&#8217;s nascent cardiac activity&#8211; that&#8217;s when these sort of beginning electrical impulses start flickering, which is around six weeks of gestation. And these laws really mischaracterize the flickering electrical impulses detectable at that stage as a heartbeat. And recently, in fact, in Georgia, the Department of Revenue announced that, quote, &#8220;any unborn child with a detectable human heartbeat,&#8221; by which they mean around six weeks, can actually be claimed now as a dependent on your taxes.</p>
+<p>IRA FLATOW: You know, Sarah, we started off this conversation talking about the end of life, which feels like it comes with a different set of issues than the beginning of life. But there&#8217;s some striking parallels in the debates around aid in dying legislation. Tell me more about that.</p>
+<p>SARAH VARNEY: There is ample connective tissue between the legal arguments surrounding abortion and the right to die. So for instance, the legal standard in Dobbs, that there is no right to abortion in the federal Constitution, which is what the Supreme Court just said, and that states can decide this issue on their own, was the same exact rationale that was used in 1997 when the Supreme Court said that terminally ill people did not have a constitutional right to doctor-assisted suicide.</p>
+<p>And there were other members of the court&#8217;s conservative bloc that overturned Roe that have also been heavily involved in arguing against the right to die. That includes Justice Neil Gorsuch, who actually wrote a book in 2017 called The Future of Assisted Suicide and Euthanasia. And that was advertised as providing the most comprehensive argument against its legalization that was ever published. And supporters of the Dobbs decision agree that it could provide a means for challenging states like Oregon, which was the first state to pass a right to die law in 1997.</p>
+<p>Jim Bopp, who is the chief lawyer for the National Right to Life Committee, who has been central in the efforts to overturn abortion, he also said that both abortion and medical aid in dying endanger society. Jim Bopp, interestingly enough, is also on that committee right now that is helping to refine the definition of death. And he very much opposes this notion of brain death and allowing hospitals and families to essentially, quote, &#8220;pull the plug&#8221; on their family members.</p>
+<p>IRA FLATOW: Sarah, always interesting stuff. Thank you for taking time to be with us today.</p>
+<p>SARAH VARNEY: Oh, thank you so much, Ira.</p>
+<p>IRA FLATOW: Sarah Varney, senior correspondent for Kaiser Health News, based in Monterey, Massachusetts. And you can read Sarah&#8217;s full story by heading over to our website, sciencefriday.com/lifeanddeath.</p>
+<p><em>Copyright © 2022 Science Friday Initiative. All rights reserved. Science Friday transcripts are produced on a tight deadline by 3Play Media. Fidelity to the original aired/published audio or video file might vary, and text might be updated or amended in the future. For the authoritative record of Science Friday’s programming, please visit the original aired/published recording. For terms of use and more information, visit our policies pages at http://www.sciencefriday.com/about/policies/.</em></p>
+<p><em> </em></p>
+					</div>
+				</div>
+			</div>
+		
+		
+		
+	<div class="entry-people">
+		<h2 class="heading">Meet the Producers and Host</h2>
+		<div class="p-wrapper">
+										<div class="people-row l-fauxTable">
+								
+				<div class="col-twoThirds col-right">
+					<div style="display: none" class="author-name">Shoshannah Buxbaum</div>
+					<h3 class="people-name title-serif">About <a href="https://www.sciencefriday.com/person/shoshannah-buxbaum/" target="_blank">Shoshannah Buxbaum</a></h3>
+
+											<a href="http://twitter.com/Shoshannah_Bux" target="_blank" class="btn-txt twitter"><span>@</span>Shoshannah_Bux</a>
+					
+											<div class="people-desc">
+							<p>Shoshannah Buxbaum <span>is a producer for Science Friday. She’s particularly drawn to stories about health, psychology, and the environment. She’s a proud New Jersey native and will happily share her opinions on why the state is deserving of a little more love.</span></p>
+						</div>
+									</div>
+
+			</div>
+								<div class="people-row l-fauxTable">
+								
+				<div class="col-twoThirds col-right">
+					<div style="display: none" class="author-name">John Dankosky</div>
+					<h3 class="people-name title-serif">About <a href="https://www.sciencefriday.com/person/john-dankosky/" target="_blank">John Dankosky</a></h3>
+
+					
+											<div class="people-desc">
+							<p>John Dankosky <span>works with the radio team to create our weekly show, and is helping to build our State of Science Reporting Network. He’s also been a long-time guest host on Science Friday. He and his wife have three cats, thousands of bees, and a yoga studio in the sleepy Northwest hills of Connecticut. </span></p>
+						</div>
+									</div>
+
+			</div>
+								<div class="people-row l-fauxTable">
+								
+				<div class="col-twoThirds col-right">
+					<div style="display: none" class="author-name">Ira Flatow</div>
+					<h3 class="people-name title-serif">About <a href="https://www.sciencefriday.com/person/ira-flatow/" target="_blank">Ira Flatow</a></h3>
+
+											<a href="http://twitter.com/iraflatow" target="_blank" class="btn-txt twitter"><span>@</span>iraflatow</a>
+					
+											<div class="people-desc">
+							<p>Ira Flatow is the host and executive producer of Science Friday<em>. </em>His green thumb has revived many an office plant at death&#8217;s door.</p>
+						</div>
+									</div>
+
+			</div>
+						</div>
+	</div>
+		
+
+
+	</div><!-- .entry-content -->
+
+		<section class="bg-pattern cf l-row">
+		<div class="cb-explore-contain l-container-lg cf">
+			<div class="heading-hexagon cf">
+				<h2 class="uppercase">Explore More</h2>
+			</div>
+			<div class="l-grid grid-special explore-more l-flex cf">
+
+																																		
+														
+							
+								<div class="col-item col-half cb-related bg-pattern-science badge-half color-segment with-img h-effect e-scale">
+
+																														<div class="bg-img bg-overlay b-lazy" data-src="https://www.sciencefriday.com/wp-content/uploads/2022/06/ivf.jpg?w=1024"></div>
+											<noscript>
+												<div class="bg-img bg-overlay" style="background-image: url('https://www.sciencefriday.com/wp-content/uploads/2022/06/ivf.jpg?w=1024');"></div>
+											</noscript>
+																			
+									<div class="u-verticalTable">
+										<div class="u-verticalAlignMiddle cb-content">
+											
+<a href="https://www.sciencefriday.com/segments/" class="badge color-segment" title="Segment">
+<div class="badge-icon"><span class="icon icon-segment icon-white"></span></div>
+	</a>
+											<h2 class="cb-title title-serif">What Could Happen To IVF In A Post-Roe World</h2>
+
+											<div class="cb-info">
+												<div class="cb-desc"><p>Efforts to restrict abortion could have major repercussions for those seeking common IVF treatments.</p></div>												<div class="btn border white" title="Read More"><span>Read More</span><i></i></div>
+											</div>
+											<a href="https://www.sciencefriday.com/segments/ivf-roe-v-wade/" title="What Could Happen To IVF In A Post-Roe World" class="click-whole-area"></a>
+										</div>
+									</div>
+								</div>
+
+							
+																																																			
+														
+							
+								<div class="col-item col-half cb-related bg-pattern-science badge-half color-segment with-img h-effect e-scale">
+
+																														<div class="bg-img bg-overlay b-lazy" data-src="https://www.sciencefriday.com/wp-content/uploads/2022/06/supreme-court.jpg?w=1024"></div>
+											<noscript>
+												<div class="bg-img bg-overlay" style="background-image: url('https://www.sciencefriday.com/wp-content/uploads/2022/06/supreme-court.jpg?w=1024');"></div>
+											</noscript>
+																			
+									<div class="u-verticalTable">
+										<div class="u-verticalAlignMiddle cb-content">
+											
+<a href="https://www.sciencefriday.com/segments/" class="badge color-segment" title="Segment">
+<div class="badge-icon"><span class="icon icon-segment icon-white"></span></div>
+	</a>
+											<h2 class="cb-title title-serif">Americans’ Knowledge Of Reproductive Health Is Limited</h2>
+
+											<div class="cb-info">
+												<div class="cb-desc"><p>As the nation awaits a momentous Supreme Court decision, a poll looks at opinions of and knowledge about reproductive health issues.</p></div>												<div class="btn border white" title="Read More"><span>Read More</span><i></i></div>
+											</div>
+											<a href="https://www.sciencefriday.com/segments/knowledge-reproductive-health-limited/" title="Americans’ Knowledge Of Reproductive Health Is Limited" class="click-whole-area"></a>
+										</div>
+									</div>
+								</div>
+
+							
+																					
+			</div>
+		</div>
+	</section>
+
+</article><!-- #post-## -->
+</div><!-- #primary -->
+
+<!-- 	<script type='text/javascript'>
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-2828400-1']);
+	_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script> -->
+	</div><!-- #content -->
+</div><!-- #page -->
+
+<footer id="colophon" class="site-footer" role="contentinfo">
+	<h2 class="screen-reader-text">Footer</h2>
+	<div class="l-container-lg">
+		<div class="l-fauxTable">
+			<div class="col col-half cf">
+				<div class="f-block-address col-half">
+					<div class="site-logo f-logo">
+						<div class="h1"><a href="https://www.sciencefriday.com/" rel="home">Science Friday</a></div>
+					</div>
+											<p>30 Broad Street, Suite 801<br />
+New York, NY 10004</p>
+										<p id="social-menu" class="screen-reader-text">Social Media Menu</p>
+					<ul id="menu-socials" class="menu menu-socials" aria-labelledby="social-menu"><li id="menu-item-75642" class="instagram menu-item menu-item-type-custom menu-item-object-custom first menu-item-75642"><a href="https://www.instagram.com/scifri/"><span class="screen-reader-text">Instagram, opens in new tab</span></a></li>
+<li id="menu-item-553" class="facebook menu-item menu-item-type-custom menu-item-object-custom menu-item-553"><a title="Facebook" target="_blank" rel="noopener" href="https://www.facebook.com/scifri"><span class="screen-reader-text">Facebook, opens in new tab</span></a></li>
+<li id="menu-item-555" class="twitter menu-item menu-item-type-custom menu-item-object-custom menu-item-555"><a title="Twitter" target="_blank" rel="noopener" href="https://twitter.com/scifri"><span class="screen-reader-text">X, opens in new tab</span></a></li>
+<li id="menu-item-554" class="youtube menu-item menu-item-type-custom menu-item-object-custom menu-item-554"><a title="Youtube" target="_blank" rel="noopener" href="http://youtube.com/scifri"><span class="screen-reader-text">Youtube, opens in new tab</span></a></li>
+<li id="menu-item-76026" class="threads menu-item menu-item-type-custom menu-item-object-custom menu-item-76026"><a href="https://www.threads.net/@scifri"><span class="screen-reader-text">Threads, opens in new tab</span></a></li>
+<li id="menu-item-76027" class="bluesky menu-item menu-item-type-custom menu-item-object-custom menu-item-76027"><a href="https://bsky.app/profile/scifri.bsky.social"><span class="screen-reader-text">Bluesky, opens in new tab</span></a></li>
+<li id="menu-item-76028" class="linkedin menu-item menu-item-type-custom menu-item-object-custom menu-item-76028"><a href="https://www.linkedin.com/company/1878803/admin/dashboard/"><span class="screen-reader-text">LinkedIn, opens in new tab</span></a></li>
+<li id="menu-item-76029" class="tiktok menu-item menu-item-type-custom menu-item-object-custom menu-item-76029"><a href="https://www.tiktok.com/@scifri"><span class="screen-reader-text">TikTok, opens in new tab</span></a></li>
+<li id="menu-item-556" class="rss menu-item menu-item-type-custom menu-item-object-custom last menu-item-556"><a title="RSS Feed" target="_blank" rel="noopener" href="http://sciencefriday.com/feed/podcast/podcast-episode"><span class="screen-reader-text">RSS, opens in new tab</span></a></li>
+</ul>				</div>
+
+				<div class="f-block-menus col-half">
+					<p id="footer-menu" class="screen-reader-text">Footer Menu</p>
+					<ul id="menu-footer" class="menu menu-footer" aria-labelledby="footer-menu"><li id="menu-item-25012" class="menu-item menu-item-type-post_type menu-item-object-page first menu-item-25012"><a href="https://www.sciencefriday.com/about/">About Us</a></li>
+<li id="menu-item-28261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28261"><a href="https://www.sciencefriday.com/donate/">Donate</a></li>
+<li id="menu-item-39218" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39218"><a href="https://www.sciencefridaystore.com/">Shop</a></li>
+<li id="menu-item-57334" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-57334"><a href="https://www.sciencefriday.com/newsletters/">Newsletters</a></li>
+<li id="menu-item-62383" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62383"><a href="https://www.sciencefriday.com/about/stations/">Stations</a></li>
+<li id="menu-item-28262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28262"><a href="https://www.sciencefriday.com/about/staff-board/">Staff &#038; Board</a></li>
+<li id="menu-item-28263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28263"><a href="https://www.sciencefriday.com/about/careers/">Careers</a></li>
+<li id="menu-item-560" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-560"><a href="http://www.sciencefriday.com/about/contact-us/">Contact</a></li>
+<li id="menu-item-71721" class="menu-item menu-item-type-post_type menu-item-object-page last menu-item-71721"><a href="https://www.sciencefriday.com/press/">Press</a></li>
+</ul>				</div>
+			</div>
+			<div class="col col-half f-block-give">
+				<div class="inner-content">
+											<div class="give-value">
+							<h3 class="screen-reader-text">Donate</h3>
+							<div class="h2">$52</div>
+						</div>
+					
+											<h4>Give a dollar for every Friday!</h4>
+					
+											<p>Thank you for helping us continue making science fun for everyone.</p>
+					
+											<a target="_blank" class="btn border full no-ajaxy" href="https://www.sciencefriday.com/donate-form/" title="Support Science Friday today"><span><em>Support Science Friday today</em></span><i></i></a>
+									</div>
+			</div>
+		</div>
+	</div>
+
+			<div class="f-copyright">
+			<p>Science Friday® is produced by the Science Friday Initiative, a 501(c)(3) nonprofit organization. Created by <a href="http://bluecadet.com" title="Bluecadet" class="no-ajaxy" rel="nofollow" target="_blank">Bluecadet</a></p>
+		</div>
+	</footer><!-- #colophon -->
+
+<script type='text/javascript'>
+	googletag.cmd.push(function() {
+		googletag.defineSlot('/1009951/sf_atf_right_300x250', [300, 250], 'div-gpt-ad-1387220948228-0').addService(googletag.pubads());
+		googletag.defineSlot('/1009951/sf_btf_right_300x250', [300, 250], 'div-gpt-ad-1387220948228-1').addService(googletag.pubads());
+		googletag.pubads().enableSingleRequest();
+		googletag.enableServices();
+	});
+</script>
+
+<div id="js-mediaQueryReference"></div>
+
+    <!-- Meta Pixel Event Code -->
+    <script type='text/javascript'>
+        document.addEventListener( 'wpcf7mailsent', function( event ) {
+        if( "fb_pxl_code" in event.detail.apiResponse){
+          eval(event.detail.apiResponse.fb_pxl_code);
+        }
+      }, false );
+    </script>
+    <!-- End Meta Pixel Event Code -->
+    <div id='fb-pxl-ajax-code'></div><div class="wt-cli-cookie-bar-container" data-nosnippet="true"><!--googleoff: all--><div id="cookie-law-info-bar" role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="wt-cli-cookie-banner" data-cli-geo-loc="0" style="background:#fff; border:solid 0px #dbdbdb; padding:22px; box-sizing:border-box; float:left; text-align:center; font-size:14px; letter-spacing:normal;" class="wt-cli-cookie-bar"><div class="cli-wrapper"><a style="display:inline-block; background:rgba(0, 0, 0, 0) none repeat scroll 0% 0%; border-radius:20px; border:1px solid rgb(132, 132, 132); color:rgb(132, 132, 132); text-align:center; font-size:12px; width:22px; height:22px; line-height:22px; margin-right:-15px; margin-top:-15px; float:right; cursor:pointer; background-color:rgba(0, 0, 0, 0); background-color:rgba(0, 0, 0, 0);" data-cli_action="accept" class="wt-cli-element cli_cookie_close_button" title="Close and Accept">X</a><span id="wt-cli-cookie-banner">This website uses cookies to improve your experience. We'll assume you're okay with this, but you can opt-out if you wish.<a id="wt-cli-policy-link" tabindex="0" href="https://www.sciencefriday.com/about/policies/" style="display:inline-block; background:rgba(0, 0, 0, 0) none repeat scroll 0% 0%; border-radius:0px; text-align:center; font-size:14px; text-decoration:underline; padding:5px 2px; margin-left:0px; border:0px solid rgb(255, 255, 255); line-height:18px;" target="_blank"  class="wt-cli-element wt-cli-element cli-plugin-main-link"  >Read more.</a><a id="wt-cli-settings-btn" tabindex="0" role='button' style="display:inline-block; background:rgb(255, 255, 255) none repeat scroll 0% 0%; border-radius:2px; text-align:center; font-size:14px; padding:5px 8px; margin-left:10px; border:1px solid rgb(244, 244, 249); line-height:18px; font-weight:bold;" class="wt-cli-element large cli-plugin-button cli-plugin-main-button cli_settings_button" >SETTINGS</a><a id="wt-cli-reject-btn" tabindex="0" role='button' style="display:inline-block; background:rgb(244, 244, 249) none repeat scroll 0% 0%; border-radius:2px; text-align:center; font-size:14px; padding:5px 8px; margin-left:10px; border:0px solid rgb(255, 255, 255); line-height:18px; font-weight:bold;"  class="wt-cli-element medium cli-plugin-button cli-plugin-main-button cookie_action_close_header_reject cli_action_button"  data-cli_action="reject">REJECT</a><a id="wt-cli-accept-btn" tabindex="0" role='button' style="display:inline-block; background:rgb(4, 180, 124) none repeat scroll 0% 0%; border-radius:2px; text-align:center; font-size:14px; padding:5px 8px; margin-left:10px; border:0px solid rgb(255, 255, 255); line-height:18px; font-weight:bold;" data-cli_action="accept"  class="wt-cli-element large cli-plugin-button cli-plugin-main-button cookie_action_close_header cli_action_button" >ACCEPT</a></span></div></div><div tabindex="0" id="cookie-law-info-again" style="display:none;"><span id="cookie_hdr_showagain">Manage consent</span></div><div class="cli-modal" id="cliSettingsPopup" role="dialog" aria-labelledby="wt-cli-privacy-title" tabindex="-1" aria-hidden="true">
+  <div class="cli-modal-dialog" role="document">
+    <div class="cli-modal-content cli-bar-popup">
+      <button aria-label="Close" type="button" class="cli-modal-close" id="cliModalClose">
+      <svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"></path><path d="M0 0h24v24h-24z" fill="none"></path></svg>
+      <span class="wt-cli-sr-only">Close</span>
+      </button>
+        <div class="cli-modal-body">
+
+    <div class="wt-cli-element cli-container-fluid cli-tab-container">
+        <div class="cli-row">
+                            <div class="cli-col-12 cli-align-items-stretch cli-px-0">
+                    <div class="cli-privacy-overview">
+                        <h4 id='wt-cli-privacy-title'>Privacy Overview</h4>                        <div class="cli-privacy-content">
+                            <div class="cli-privacy-content-text">This website uses cookies to improve your experience while you navigate through the website. Out of these cookies, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may have an effect on your browsing experience.</div>
+                        </div>
+                        <a id="wt-cli-privacy-readmore"  tabindex="0" role="button" class="cli-privacy-readmore" data-readmore-text="Show more" data-readless-text="Show less"></a>                    </div>
+                </div>
+                        <div class="cli-col-12 cli-align-items-stretch cli-px-0 cli-tab-section-container" role="tablist">
+
+                
+                                    <div class="cli-tab-section">
+                        <div class="cli-tab-header">
+                            <a id="wt-cli-tab-link-necessary" tabindex="0" role="tab" aria-expanded="false" aria-describedby="wt-cli-tab-necessary" aria-controls="wt-cli-tab-necessary" class="cli-nav-link cli-settings-mobile" data-target="necessary" data-toggle="cli-toggle-tab">
+                                Necessary                            </a>
+                                                                                        <div class="wt-cli-necessary-checkbox">
+                                    <input type="checkbox" class="cli-user-preference-checkbox" id="wt-cli-checkbox-necessary" aria-label="Necessary" data-id="checkbox-necessary" checked="checked" />
+                                    <label class="form-check-label" for="wt-cli-checkbox-necessary"> Necessary </label>
+                                </div>
+                                <span class="cli-necessary-caption">
+                                    Always Enabled                                </span>
+                                                    </div>
+                        <div class="cli-tab-content">
+                            <div id="wt-cli-tab-necessary" tabindex="0" role="tabpanel" aria-labelledby="wt-cli-tab-link-necessary" class="cli-tab-pane cli-fade" data-id="necessary">
+                            <div class="wt-cli-cookie-description">Necessary cookies are absolutely essential for the website to function properly. These cookies ensure basic functionalities and security features of the website, anonymously.
+<table class="wt-cli-element cookielawinfo-row-cat-table cookielawinfo-winter"><thead><tr><th scope="col" class="cookielawinfo-column-1">Cookie</th><th scope="col" class="cookielawinfo-column-3">Duration</th><th scope="col" class="cookielawinfo-column-4">Description</th></tr></thead><tbody><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">_abck</td><td class="cookielawinfo-column-3">1 year</td><td class="cookielawinfo-column-4">This cookie is used to detect and defend when a client attempt to replay a cookie.This cookie manages the interaction with online bots and takes the appropriate actions.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">ASP.NET_SessionId</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">Issued by Microsoft's ASP.NET Application, this cookie stores session data during a user's website visit.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">AWSALBCORS</td><td class="cookielawinfo-column-3">7 days</td><td class="cookielawinfo-column-4">This cookie is managed by Amazon Web Services and is used for load balancing.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">bm_sz</td><td class="cookielawinfo-column-3">4 hours</td><td class="cookielawinfo-column-4">This cookie is set by the provider Akamai Bot Manager. This cookie is used to manage the interaction with the online bots. It also helps in fraud preventions</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-advertisement</td><td class="cookielawinfo-column-3">1 year</td><td class="cookielawinfo-column-4">Set by the GDPR Cookie Consent plugin, this cookie is used to record the user consent for the cookies in the "Advertisement" category .</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-analytics</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Analytics".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-functional</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">The cookie is set by GDPR cookie consent to record the user consent for the cookies in the category "Functional".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-necessary</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookies is used to store the user consent for the cookies in the category "Necessary".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-others</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Other.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-performance</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Performance".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">csrftoken</td><td class="cookielawinfo-column-3">past</td><td class="cookielawinfo-column-4">This cookie is associated with Django web development platform for python. Used to help protect the website against Cross-Site Request Forgery attacks</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">JSESSIONID</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">The JSESSIONID cookie is used by New Relic to store a session identifier so that New Relic can monitor session counts for an application.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">nlbi_972453</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">A load balancing cookie set to ensure requests by a client are sent to the same origin server.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">PHPSESSID</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">This cookie is native to PHP applications. The cookie is used to store and identify a users' unique session ID for the purpose of managing user session on the website. The cookie is a session cookies and is deleted when all the browser windows are closed.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">TiPMix</td><td class="cookielawinfo-column-3">1 hour</td><td class="cookielawinfo-column-4">The TiPMix cookie is set by Azure to determine which web server the users must be directed to.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">viewed_cookie_policy</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">The cookie is set by the GDPR Cookie Consent plugin and is used to store whether or not user has consented to the use of cookies. It does not store any personal data.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">visid_incap_972453</td><td class="cookielawinfo-column-3">1 year</td><td class="cookielawinfo-column-4">SiteLock sets this cookie to provide cloud-based website security services.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">X-Mapping-fjhppofk</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">This cookie is used for load balancing purposes. The cookie does not store any personally identifiable data.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">x-ms-routing-name</td><td class="cookielawinfo-column-3">1 hour</td><td class="cookielawinfo-column-4">Azure sets this cookie for routing production traffic by specifying the production slot.</td></tr></tbody></table></div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="cli-tab-section">
+                        <div class="cli-tab-header">
+                            <a id="wt-cli-tab-link-functional" tabindex="0" role="tab" aria-expanded="false" aria-describedby="wt-cli-tab-functional" aria-controls="wt-cli-tab-functional" class="cli-nav-link cli-settings-mobile" data-target="functional" data-toggle="cli-toggle-tab">
+                                Functional                            </a>
+                                                                                        <div class="cli-switch">
+                                    <input type="checkbox" class="cli-user-preference-checkbox"  id="wt-cli-checkbox-functional" aria-label="functional" data-id="checkbox-functional" role="switch" aria-controls="wt-cli-tab-link-functional" aria-labelledby="wt-cli-tab-link-functional"  />
+                                    <label for="wt-cli-checkbox-functional" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">functional</span></label>
+                                </div>
+                                                    </div>
+                        <div class="cli-tab-content">
+                            <div id="wt-cli-tab-functional" tabindex="0" role="tabpanel" aria-labelledby="wt-cli-tab-link-functional" class="cli-tab-pane cli-fade" data-id="functional">
+                            <div class="wt-cli-cookie-description">Functional cookies help to perform certain functionalities like sharing the content of the website on social media platforms, collect feedbacks, and other third-party features.
+<table class="wt-cli-element cookielawinfo-row-cat-table cookielawinfo-winter"><thead><tr><th scope="col" class="cookielawinfo-column-1">Cookie</th><th scope="col" class="cookielawinfo-column-3">Duration</th><th scope="col" class="cookielawinfo-column-4">Description</th></tr></thead><tbody><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">__cf_bm</td><td class="cookielawinfo-column-3">30 minutes</td><td class="cookielawinfo-column-4">This cookie, set by Cloudflare, is used to support Cloudflare Bot Management.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">bcookie</td><td class="cookielawinfo-column-3">2 years</td><td class="cookielawinfo-column-4">LinkedIn sets this cookie from LinkedIn share buttons and ad tags to recognize browser ID.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">bscookie</td><td class="cookielawinfo-column-3">2 years</td><td class="cookielawinfo-column-4">LinkedIn sets this cookie to store performed actions on the website.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">lang</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">LinkedIn sets this cookie to remember a user's language setting.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">lidc</td><td class="cookielawinfo-column-3">1 day</td><td class="cookielawinfo-column-4">LinkedIn sets the lidc cookie to facilitate data center selection.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">S</td><td class="cookielawinfo-column-3">1 hour</td><td class="cookielawinfo-column-4">Used by Yahoo to provide ads, content or analytics.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">sp_landing</td><td class="cookielawinfo-column-3">1 day</td><td class="cookielawinfo-column-4">The sp_landing is set by Spotify to implement audio content from Spotify on the website and also registers information on user interaction related to the audio content.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">sp_t</td><td class="cookielawinfo-column-3">1 year</td><td class="cookielawinfo-column-4">The sp_t cookie is set by Spotify to implement audio content from Spotify on the website and also registers information on user interaction related to the audio content.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">UserMatchHistory</td><td class="cookielawinfo-column-3">1 month</td><td class="cookielawinfo-column-4">LinkedIn sets this cookie for LinkedIn Ads ID syncing.</td></tr></tbody></table></div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="cli-tab-section">
+                        <div class="cli-tab-header">
+                            <a id="wt-cli-tab-link-performance" tabindex="0" role="tab" aria-expanded="false" aria-describedby="wt-cli-tab-performance" aria-controls="wt-cli-tab-performance" class="cli-nav-link cli-settings-mobile" data-target="performance" data-toggle="cli-toggle-tab">
+                                Performance                            </a>
+                                                                                        <div class="cli-switch">
+                                    <input type="checkbox" class="cli-user-preference-checkbox"  id="wt-cli-checkbox-performance" aria-label="performance" data-id="checkbox-performance" role="switch" aria-controls="wt-cli-tab-link-performance" aria-labelledby="wt-cli-tab-link-performance"  />
+                                    <label for="wt-cli-checkbox-performance" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">performance</span></label>
+                                </div>
+                                                    </div>
+                        <div class="cli-tab-content">
+                            <div id="wt-cli-tab-performance" tabindex="0" role="tabpanel" aria-labelledby="wt-cli-tab-link-performance" class="cli-tab-pane cli-fade" data-id="performance">
+                            <div class="wt-cli-cookie-description">Performance cookies are used to understand and analyze the key performance indexes of the website which helps in delivering a better experience for the visitors. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.
+<table class="wt-cli-element cookielawinfo-row-cat-table cookielawinfo-winter"><thead><tr><th scope="col" class="cookielawinfo-column-1">Cookie</th><th scope="col" class="cookielawinfo-column-3">Duration</th><th scope="col" class="cookielawinfo-column-4">Description</th></tr></thead><tbody><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">__jid</td><td class="cookielawinfo-column-3">30 minutes</td><td class="cookielawinfo-column-4">Cookie used to remember the user's Disqus login credentials across websites that use Disqus.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">_gat</td><td class="cookielawinfo-column-3">1 minute</td><td class="cookielawinfo-column-4">This cookie is installed by Google Universal Analytics to restrain request rate and thus limit the collection of data on high traffic sites.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">_gat_UA-28243511-22</td><td class="cookielawinfo-column-3">1 minute</td><td class="cookielawinfo-column-4">A variation of the _gat cookie set by Google Analytics and Google Tag Manager to allow website owners to track visitor behaviour and measure site performance. The pattern element in the name contains the unique identity number of the account or website it relates to.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">AWSALB</td><td class="cookielawinfo-column-3">7 days</td><td class="cookielawinfo-column-4">AWSALB is an application load balancer cookie set by Amazon Web Services to map the session to the target.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">countryCode</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">This cookie is used for storing country code selected from country selector.</td></tr></tbody></table></div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="cli-tab-section">
+                        <div class="cli-tab-header">
+                            <a id="wt-cli-tab-link-audience" tabindex="0" role="tab" aria-expanded="false" aria-describedby="wt-cli-tab-audience" aria-controls="wt-cli-tab-audience" class="cli-nav-link cli-settings-mobile" data-target="audience" data-toggle="cli-toggle-tab">
+                                Audience Measurement                            </a>
+                                                                                        <div class="cli-switch">
+                                    <input type="checkbox" class="cli-user-preference-checkbox"  id="wt-cli-checkbox-audience" aria-label="audience" data-id="checkbox-audience" role="switch" aria-controls="wt-cli-tab-link-audience" aria-labelledby="wt-cli-tab-link-audience"  />
+                                    <label for="wt-cli-checkbox-audience" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">audience</span></label>
+                                </div>
+                                                    </div>
+                        <div class="cli-tab-content">
+                            <div id="wt-cli-tab-audience" tabindex="0" role="tabpanel" aria-labelledby="wt-cli-tab-link-audience" class="cli-tab-pane cli-fade" data-id="audience">
+                            <div class="wt-cli-cookie-description">Analytical cookies are used to understand how visitors interact with the website. These cookies help provide anonymized information on metrics the number of visitors, bounce rate, traffic source, etc. The use of these cookies is strictly limited to measuring the site's audience. These cookies do not allow the tracking of navigation on other websites and the data collected is not combined or shared with third parties.
+</div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="cli-tab-section">
+                        <div class="cli-tab-header">
+                            <a id="wt-cli-tab-link-advertisement" tabindex="0" role="tab" aria-expanded="false" aria-describedby="wt-cli-tab-advertisement" aria-controls="wt-cli-tab-advertisement" class="cli-nav-link cli-settings-mobile" data-target="advertisement" data-toggle="cli-toggle-tab">
+                                Advertisement                            </a>
+                                                                                        <div class="cli-switch">
+                                    <input type="checkbox" class="cli-user-preference-checkbox"  id="wt-cli-checkbox-advertisement" aria-label="advertisement" data-id="checkbox-advertisement" role="switch" aria-controls="wt-cli-tab-link-advertisement" aria-labelledby="wt-cli-tab-link-advertisement"  />
+                                    <label for="wt-cli-checkbox-advertisement" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">advertisement</span></label>
+                                </div>
+                                                    </div>
+                        <div class="cli-tab-content">
+                            <div id="wt-cli-tab-advertisement" tabindex="0" role="tabpanel" aria-labelledby="wt-cli-tab-link-advertisement" class="cli-tab-pane cli-fade" data-id="advertisement">
+                            <div class="wt-cli-cookie-description">Advertisement cookies are used to provide visitors with relevant ads and marketing campaigns. These cookies track visitors across websites and collect information to provide customized ads.
+<table class="wt-cli-element cookielawinfo-row-cat-table cookielawinfo-winter"><thead><tr><th scope="col" class="cookielawinfo-column-1">Cookie</th><th scope="col" class="cookielawinfo-column-3">Duration</th><th scope="col" class="cookielawinfo-column-4">Description</th></tr></thead><tbody><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">_fbp</td><td class="cookielawinfo-column-3">3 months</td><td class="cookielawinfo-column-4">This cookie is set by Facebook to display advertisements when either on Facebook or on a digital platform powered by Facebook advertising, after visiting the website.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">fr</td><td class="cookielawinfo-column-3">3 months</td><td class="cookielawinfo-column-4">Facebook sets this cookie to show relevant advertisements to users by tracking user behaviour across the web, on sites that have Facebook pixel or Facebook social plugin.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">IDE</td><td class="cookielawinfo-column-3">1 year 24 days</td><td class="cookielawinfo-column-4">Google DoubleClick IDE cookies are used to store information about how the user uses the website to present them with relevant ads and according to the user profile.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">NID</td><td class="cookielawinfo-column-3">6 months</td><td class="cookielawinfo-column-4">NID cookie, set by Google, is used for advertising purposes; to limit the number of times the user sees an ad, to mute unwanted ads, and to measure the effectiveness of ads.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">personalization_id</td><td class="cookielawinfo-column-3">2 years</td><td class="cookielawinfo-column-4">Twitter sets this cookie to integrate and share features for social media and also store information about how the user uses the website, for tracking and targeting.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">test_cookie</td><td class="cookielawinfo-column-3">15 minutes</td><td class="cookielawinfo-column-4">The test_cookie is set by doubleclick.net and is used to determine if the user's browser supports cookies.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">vglnk.Agent.p</td><td class="cookielawinfo-column-3">1 year</td><td class="cookielawinfo-column-4">VigLink sets this cookie to track the user behaviour and also limit the ads displayed, in order to ensure relevant advertising.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">vglnk.PartnerRfsh.p</td><td class="cookielawinfo-column-3">1 year</td><td class="cookielawinfo-column-4">VigLink sets this cookie to show users relevant advertisements and also limit the number of adverts that are shown to them.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">VISITOR_INFO1_LIVE</td><td class="cookielawinfo-column-3">5 months 27 days</td><td class="cookielawinfo-column-4">A cookie set by YouTube to measure bandwidth that determines whether the user gets the new or old player interface.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">YSC</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">YSC cookie is set by Youtube and is used to track the views of embedded videos on Youtube pages.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">yt-remote-connected-devices</td><td class="cookielawinfo-column-3">never</td><td class="cookielawinfo-column-4">YouTube sets this cookie to store the video preferences of the user using embedded YouTube video.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">yt-remote-device-id</td><td class="cookielawinfo-column-3">never</td><td class="cookielawinfo-column-4">YouTube sets this cookie to store the video preferences of the user using embedded YouTube video.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">yt.innertube::nextId</td><td class="cookielawinfo-column-3">never</td><td class="cookielawinfo-column-4">This cookie, set by YouTube, registers a unique ID to store data on what videos from YouTube the user has seen.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">yt.innertube::requests</td><td class="cookielawinfo-column-3">never</td><td class="cookielawinfo-column-4">This cookie, set by YouTube, registers a unique ID to store data on what videos from YouTube the user has seen.</td></tr></tbody></table></div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="cli-tab-section">
+                        <div class="cli-tab-header">
+                            <a id="wt-cli-tab-link-others" tabindex="0" role="tab" aria-expanded="false" aria-describedby="wt-cli-tab-others" aria-controls="wt-cli-tab-others" class="cli-nav-link cli-settings-mobile" data-target="others" data-toggle="cli-toggle-tab">
+                                Others                            </a>
+                                                                                        <div class="cli-switch">
+                                    <input type="checkbox" class="cli-user-preference-checkbox"  id="wt-cli-checkbox-others" aria-label="others" data-id="checkbox-others" role="switch" aria-controls="wt-cli-tab-link-others" aria-labelledby="wt-cli-tab-link-others"  />
+                                    <label for="wt-cli-checkbox-others" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">others</span></label>
+                                </div>
+                                                    </div>
+                        <div class="cli-tab-content">
+                            <div id="wt-cli-tab-others" tabindex="0" role="tabpanel" aria-labelledby="wt-cli-tab-link-others" class="cli-tab-pane cli-fade" data-id="others">
+                            <div class="wt-cli-cookie-description">Other uncategorized cookies are those that are being analyzed and have not been classified into a category as yet.
+<table class="wt-cli-element cookielawinfo-row-cat-table cookielawinfo-winter"><thead><tr><th scope="col" class="cookielawinfo-column-1">Cookie</th><th scope="col" class="cookielawinfo-column-3">Duration</th><th scope="col" class="cookielawinfo-column-4">Description</th></tr></thead><tbody><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">_dc_gtm_UA-28243511-20</td><td class="cookielawinfo-column-3">1 minute</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">abtest-identifier</td><td class="cookielawinfo-column-3">1 year</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">AnalyticsSyncHistory</td><td class="cookielawinfo-column-3">1 month</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">ARRAffinityCU</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description available.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">ccc</td><td class="cookielawinfo-column-3">1 month</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">COMPASS</td><td class="cookielawinfo-column-3">1 hour</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookies.js_dtest</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">debug</td><td class="cookielawinfo-column-3">never</td><td class="cookielawinfo-column-4">No description available.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">donation-identifier</td><td class="cookielawinfo-column-3">1 year</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">f</td><td class="cookielawinfo-column-3">never</td><td class="cookielawinfo-column-4">No description available.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">GFE_RTT</td><td class="cookielawinfo-column-3">5 minutes</td><td class="cookielawinfo-column-4">No description available.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_1185_2233503</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_1185_823975</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_1185_972453</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_1319_2233503</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_1319_823975</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_1319_972453</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_1364_2233503</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_1364_823975</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_1364_972453</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_1580_2233503</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_1580_823975</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_1580_972453</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_198_2233503</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_198_823975</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_198_972453</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_340_2233503</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_340_823975</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_340_972453</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_374_2233503</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_374_823975</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_374_972453</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_375_2233503</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_375_823975</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_375_972453</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_455_2233503</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_455_823975</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_455_972453</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_8076_2233503</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_8076_823975</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_8076_972453</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_867_2233503</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_867_823975</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_867_972453</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_9117_2233503</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_9117_823975</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">incap_ses_9117_972453</td><td class="cookielawinfo-column-3">session</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">li_gc</td><td class="cookielawinfo-column-3">2 years</td><td class="cookielawinfo-column-4">No description</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">loglevel</td><td class="cookielawinfo-column-3">never</td><td class="cookielawinfo-column-4">No description available.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">msToken</td><td class="cookielawinfo-column-3">10 days</td><td class="cookielawinfo-column-4">No description</td></tr></tbody></table></div>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div class="cli-modal-footer">
+    <div class="wt-cli-element cli-container-fluid cli-tab-container">
+        <div class="cli-row">
+            <div class="cli-col-12 cli-align-items-stretch cli-px-0">
+                <div class="cli-tab-footer wt-cli-privacy-overview-actions">
+                    
+                        
+                                                    <a id="wt-cli-privacy-save-btn" role="button" tabindex="0" data-cli-action="accept" class="wt-cli-privacy-btn cli_setting_save_button wt-cli-privacy-accept-btn cli-btn">Save & Accept</a>
+                                                                    
+                </div>
+                            </div>
+        </div>
+    </div>
+</div>
+    </div>
+  </div>
+</div>
+<div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+<div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+<!--googleon: all--></div>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			cli_cookiebar_settings='{"animate_speed_hide":"500","animate_speed_show":"500","background":"rgb(255, 255, 255)","border":"#b1a6a6c2","border_on":false,"button_1_button_colour":"rgb(4, 180, 124)","button_1_button_hover":"rgb(4, 180, 124)","button_1_link_colour":"rgb(255, 255, 255)","button_1_as_button":true,"button_1_new_win":false,"button_2_button_colour":"rgba(0, 0, 0, 0)","button_2_button_hover":"rgba(0, 0, 0, 0)","button_2_link_colour":"rgb(246, 71, 30)","button_2_as_button":false,"button_2_hidebar":false,"button_2_nofollow":false,"button_3_button_colour":"rgb(244, 244, 249)","button_3_button_hover":"rgb(244, 244, 249)","button_3_link_colour":"rgb(100, 108, 155)","button_3_as_button":true,"button_3_new_win":false,"button_4_button_colour":"rgb(255, 255, 255)","button_4_button_hover":"rgb(255, 255, 255)","button_4_link_colour":"rgb(100, 108, 155)","button_4_as_button":true,"button_7_button_colour":"rgb(4, 180, 124)","button_7_button_hover":"rgb(4, 180, 124)","button_7_link_colour":"#fff","button_7_as_button":true,"button_7_new_win":false,"font_family":"inherit","header_fix":true,"notify_animate_hide":true,"notify_animate_show":true,"notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"bottom","scroll_close":false,"scroll_close_reload":false,"accept_close_reload":false,"reject_close_reload":false,"showagain_tab":false,"showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#000","show_once_yn":false,"show_once":"10000","logging_on":true,"as_popup":false,"popup_overlay":true,"bar_heading_text":"","cookie_bar_as":"banner","cookie_setting_popup":true,"accept_all":true,"js_script_blocker":false,"popup_showagain_position":"bottom-right","widget_position":"right","button_1_style":[["display","inline-block"],["background","rgb(4, 180, 124) none repeat scroll 0% 0%"],["border-radius","2px"],["text-align","center"],["font-size","14px"],["padding","5px 8px"],["margin-left","10px"],["border","0px solid rgb(255, 255, 255)"],["line-height","18px"],["font-weight","bold"]],"button_2_style":[["display","inline-block"],["background","rgba(0, 0, 0, 0) none repeat scroll 0% 0%"],["border-radius","0px"],["text-align","center"],["font-size","14px"],["text-decoration","underline"],["padding","5px 2px"],["margin-left","0px"],["border","0px solid rgb(255, 255, 255)"],["line-height","18px"]],"button_3_style":[["display","inline-block"],["background","rgb(244, 244, 249) none repeat scroll 0% 0%"],["border-radius","2px"],["text-align","center"],["font-size","14px"],["padding","5px 8px"],["margin-left","10px"],["border","0px solid rgb(255, 255, 255)"],["line-height","18px"],["font-weight","bold"]],"button_4_style":[["display","inline-block"],["background","rgb(255, 255, 255) none repeat scroll 0% 0%"],["border-radius","2px"],["text-align","center"],["font-size","14px"],["padding","5px 8px"],["margin-left","10px"],["border","1px solid rgb(244, 244, 249)"],["line-height","18px"],["font-weight","bold"]],"button_5_style":{"0":["display","inline-block"],"1":["background","rgba(0, 0, 0, 0) none repeat scroll 0% 0%"],"2":["border-radius","20px"],"3":["border","1px solid rgb(132, 132, 132)"],"4":["color","rgb(132, 132, 132)"],"5":["text-align","center"],"6":["font-size","12px"],"7":["width","22px"],"8":["height","22px"],"9":["line-height","22px"],"10":["margin-right","-15px"],"11":["margin-top","-15px"],"12":["float","right"],"13":["cursor","pointer"],"14":["background-color","rgba(0, 0, 0, 0)"],"17":["background-color","rgba(0, 0, 0, 0)"]},"button_7_style":[["display","inline-block"],["background","#04b47c"],["border-radius","2px"],["text-align","center"],["font-size","12px"],["padding","5px 8px"],["margin-left","10px"],["border","solid 0px #fff"],["line-height","18px"]],"accept_close_page_navigation":false}';
+		/* ]]> */
+		</script>
+		<link rel='stylesheet' id='soundcite-css' href='https://cdn.knightlab.com/libs/soundcite/latest/css/player.css?ver=6.6.1' media='all' />
+<link rel='stylesheet' id='all-css-4' href='https://www.sciencefriday.com/wp-content/plugins/webtoffee-gdpr-cookie-consent/public/css/cookie-law-info-table.css?m=1706041084g' type='text/css' media='all' />
+<script type="text/javascript" src="https://www.sciencefriday.com/wp-includes/js/dist/hooks.min.js?m=1721926676g" ></script><script type="text/javascript" src="https://www.sciencefriday.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.sciencefriday.com/wp-content/plugins/wp-parsely/build/loader.js?m=1710519902g" ></script><script type="text/javascript" data-parsely-site="sciencefriday.com" src="https://cdn.parsely.com/keys/sciencefriday.com/p.js?ver=3.15.0" id="parsely-cfg"></script>
+<script type="text/javascript" src="https://www.sciencefriday.com/_static/??-eJyNzkEOgyAUBNALVT4mpu2m6VkMju0n8qF80HD7uuAAriazeJmhIw0uSoEUKl8EKKljiMOaeZkbeaUdssRMaasfFjWBxXi90QWpByfkYa3iCsfTXnR90adtbjjzV5Gb6bUfeIfX+LB3O432Ofk/DjFK2Q==" ></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js?ver=1.0.6" id="fastclick-js"></script>
+<script type="text/javascript" src="https://www.sciencefriday.com/_static/??/wp-content/themes/sciencefriday/js/vendor/masonry.pkgd.min.js,/wp-content/themes/sciencefriday/js/functionality.min.js?m=1719255322j" ></script><script type="text/javascript" src="https://static.everyaction.com/ea-actiontag/at.js?ver=1.0.0" id="ea-actiontag-js"></script>
+<script type="text/javascript" src="https://www.sciencefriday.com/wp-content/themes/sciencefriday/js/vendor/swiper-bundle.min.js?ver=1.0.0" id="swiperjs-js"></script>
+<script type="text/javascript" src="https://stats.wp.com/e-202434.js" id="jetpack-stats-js" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="jetpack-stats-js-after">
+/* <![CDATA[ */
+_stq = window._stq || [];
+_stq.push([ "view", JSON.parse("{\"v\":\"ext\",\"blog\":\"165317543\",\"post\":\"67148\",\"tz\":\"-4\",\"srv\":\"www.sciencefriday.com\",\"hp\":\"vip\",\"j\":\"1:13.6\"}") ]);
+_stq.push([ "clickTrackerInit", "165317543", "67148" ]);
+/* ]]> */
+</script>
+<script type="text/javascript" id="bafg_custom_js-js-extra">
+/* <![CDATA[ */
+var bafg_constant_obj = {"ajax_url":"https:\/\/www.sciencefriday.com\/wp-admin\/admin-ajax.php","site_url":"https:\/\/www.sciencefriday.com\/wp-content\/plugins\/beaf-before-and-after-gallery\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.sciencefriday.com/wp-content/plugins/beaf-before-and-after-gallery/assets/js/bafg-custom-js.js?m=1710519901g" ></script><script type="text/javascript" src="https://cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js?ver=6.6.1" id="soundcite-js"></script>
+<script type="text/javascript" id="soundcite-js-after">
+/* <![CDATA[ */
+var SOUNDCITE_CONFIG = {background_color: '#F6471E'
+};
+/* ]]> */
+</script>
+</body>
+</html>
